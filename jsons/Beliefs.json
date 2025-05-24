@@ -1,0 +1,1275 @@
+[//信仰（加成）
+    {
+        "name": "Ancestor Worship",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture] from every [Shrine]"]
+    },
+    {
+        "name": "Dance of the Aurora",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from [Tundra] tiles without [Forest] [in this city]"]
+    },
+    {
+        "name": "Desert Folklore",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Desert]"]
+    },
+    {
+        "name": "Faith Healers",
+        "type": "Pantheon",
+        "uniques": ["[All] Units adjacent to this city heal [+30] HP per turn when healing"]
+        // This should be worded better
+    },
+    {
+        "name": "Fertility Rites",
+        "type": "Pantheon",
+        "uniques": ["[+10]% growth [in this city]"]
+        // Preferably I would not have a cityFilter here, but doing so requires no additional implementation
+    },
+    {
+        "name": "God of Craftsman",
+        "type": "Pantheon",
+        "uniques": ["[+1 Production] [in all cities] <in cities with at least [3] [Population]>"]
+    },
+    {
+        "name": "God of the Open Sky",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture] from every [Pasture]"]
+    },
+    {
+        "name": "God of the Sea",
+        "type": "Pantheon",
+        "uniques": ["[+1 Production] from every [Fishing Boats]"]
+    },
+    {
+        "name": "God of War",
+        "type": "Pantheon",
+        "uniques": ["Earn [50]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"]
+    },
+    {
+        "name": "Goddess of Festivals",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture, +1 Faith] from every [Wine]", "[+1 Culture, +1 Faith] from every [Incense]"]
+    },
+    {
+        "name": "Goddess of Love",
+        "type": "Pantheon",
+        "uniques": ["[+1 Happiness] [in cities following this religion] <in cities with at least [6] [Population]>"]
+    },
+    {
+        "name": "Goddess of Protection",
+        "type": "Pantheon",
+        "uniques": ["[+30]% Strength for cities <when attacking>"]
+    },
+    {
+        "name": "Goddess of the Hunt",
+        "type": "Pantheon",
+        "uniques": ["[+1 Food] from every [Camp]"]
+    },
+    {
+        "name": "Messenger of the Gods",
+        "type": "Pantheon",
+        "uniques": ["[+2 Science] from each Trade Route"]
+    },
+    {
+        "name": "Monument to the Gods",
+        "type": "Pantheon",
+        "uniques": ["[+15]% Production when constructing [Ancient era] wonders [in cities following this religion]",
+            "[+15]% Production when constructing [Classical era] wonders [in cities following this religion]"]
+    },
+    {
+        "name": "One with Nature",
+        "type": "Pantheon",
+        "uniques": ["[+4 Faith] from every [Natural Wonder]"]
+    },
+    {
+        "name": "Oral Tradition",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture] from every [Plantation]"]
+    },
+    {
+        "name": "Religious Idols",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture, +1 Faith] from every [Gold Ore]", "[+1 Culture, +1 Faith] from every [Silver]"]
+    },
+    {
+        "name": "Religious Settlements",
+        "type": "Pantheon",
+        "uniques": ["[-15]% Culture cost of natural border growth [in cities following this religion]"]
+    },
+    {
+        "name": "Sacred Path",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture] from every [Jungle]"]
+    },
+    {
+        "name": "Sacred Waters",
+        "type": "Pantheon",
+        "uniques": ["[+1 Happiness] in cities on [River] tiles"]
+    },
+    {
+        "name": "Stone Circles",
+        "type": "Pantheon",
+        "uniques": ["[+2 Faith] from every [Quarry]"]
+    },
+    {
+        "name": "进步思潮",
+        "type": "Pantheon",
+        "uniques": ["Gain a free [Library] [in capital]",
+        "[+1 Science] per [3] population [in all cities] <in cities without a [Library]>"
+        ]
+    },
+    {
+        "name": "支援计划",
+        "type": "Pantheon",
+        "uniques": ["Gain [200] [Gold]",
+        "[+1 Culture, +1 Science] [in capital] <for every [300] [Gold]>"
+        ]
+    },
+    {
+        "name": "取舍",
+        "type": "Pantheon",
+        "uniques": ["Provides [1] [Horses]",
+        "Free [Horseman] appears",
+        "Free [Chariot Archer] appears"
+        ]
+    },
+    {
+        "name": "进击",
+        "type": "Pantheon",
+        "uniques": ["[+1 Production] from [Luxury resource] tiles [in all cities] <in tiles adjacent to [City center] tiles>",
+        ]
+    },
+    {
+        "name": "最终价值",
+        "type": "Pantheon",
+        "uniques": ["[Gold] cost of purchasing [All] buildings [-20]%",
+        ]
+    },
+    {
+        "name": "童话故事",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith, +2 Happiness] [in cities following this religion] <in [Luxury resource] tiles>",
+        ]
+    },
+    {
+        "name": "智慧思潮",
+        "type": "Pantheon",
+        "uniques": ["[+1 Science] [in all cities]",
+        "[+1 Science] [in all cities] <in cities with at least [4] [Population]>"
+        ]
+    },
+    {
+        "name": "长生岩",
+        "type": "Pantheon",
+        "uniques": ["Comment [令所有单位恢复额外回复+5点生命值]"
+        ]
+    },
+    {
+        "name": "短期攻势",
+        "type": "Pantheon",
+        "uniques": ["[+25]% Strength <for [Military] units> <for [7] turns>"
+        ]
+    },
+    {
+        "name": "挽歌",
+        "type": "Pantheon",
+        "uniques": [
+        "Comment [交战时对城邦影响减少成度增加-100%]"
+        ]
+    },
+    {
+        "name": "铁律",
+        "type": "Pantheon",
+        "uniques": [
+        "Comment [令近站单位防御时当和近战单位相邻时+15%战斗力]"
+        ]
+    },
+    {
+        "name": "崇尚",
+        "type": "Pantheon",
+        "uniques": ["Gain a free [民族荣誉] [in capital]",
+        "Comment [其可以为在这个城市中新建成的军事单位获得15XP]"
+        ]
+    },
+    {
+        "name": "大采石场",
+        "type": "Pantheon",
+        "uniques": ["[+1 Production, -1 Food] from every [Stone]"
+        ]
+    },
+    {
+        "name": "文化煽动",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture] [in all cities] <in cities without a [Monument]>"
+        ]
+    },
+    {
+        "name": "宣称",
+        "type": "Pantheon",
+        "uniques": ["[+1 Science, +1 Faith] [in all coastal cities]"
+        ]
+    },
+    {
+        "name": "重拾希望",
+        "type": "Pantheon",
+        "uniques": ["[+1 Production] per [4] population [in all cities]"
+        ]
+    },
+    {
+        "name": "道德教育",
+        "type": "Pantheon",
+        "uniques": ["[-50]% Unhappiness from [Population] [in annexed cities] <in cities without a [Courthouse]>"
+        ]
+    },
+    {
+        "name": "补给",
+        "type": "Pantheon",
+        "uniques": ["Provides [3] [Horses]",
+        "Provides [3] [Iron]",
+        ]
+    },
+    {
+        "name": "名人效应",
+        "type": "Pantheon",
+        "uniques": ["Free [Great Merchant] appears",
+        ]
+    },
+    {
+        "name": "爱丽丝效应",
+        "type": "Pantheon",
+        "uniques": ["[+1 Science] from all [Culture] buildings <in cities without a [Palace]>",
+        "[+1 Culture] from all [Science] buildings <in cities without a [Palace]>",
+        ]
+    },
+    {
+        "name": "抗自然灾害",
+        "type": "Pantheon",
+        "uniques": ["[+1 Food] [in all cities] <in tiles not adjacent to [River] tiles>"
+        ]
+    },
+   {
+        "name": "冰封的机器",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith, +1 Gold] from every [Snow]"
+        ]
+    },
+    {
+        "name": "调用",
+        "type": "Pantheon",
+        "uniques": ["[+15]% Production towards any buildings that already exist in the Capital"
+        ]
+    },
+    {
+        "name": "统治者认可",
+        "type": "Pantheon",
+        "uniques": [
+        "Comment [建立新城市引起的政策文化增幅-33%]"
+        ]
+    },
+    {
+        "name": "空想思潮",
+        "type": "Pantheon",
+        "uniques": ["[+10]% [Science] <while the empire is happy>",
+        ]
+    },
+    {
+        "name": "连贯动作",
+        "type": "Pantheon",
+        "uniques": [
+        "Comment [对所有地块改良-25%的建造时间]"
+        ]
+    },
+    {
+        "name": "财务抵押",
+        "type": "Pantheon",
+        "uniques": ["[Gold] cost of purchasing [All] buildings [+20]%",
+        "[+1 Production] [in all cities]"
+        ]
+    },
+    {
+        "name": "观察者论",
+        "type": "Pantheon",
+        "uniques": ["Comment [令[Scout]单位视野+2]"
+        ]
+    },
+    {
+        "name": "完全美丽",
+        "type": "Pantheon",
+        "uniques": ["[+2 Production] from every [Hill] <with [6] to [6] neighboring [Open terrain] tiles>",
+        "[+4 Production] from every [Mountain] <with [6] to [6] neighboring [Open terrain] tiles>"
+        ]
+    },
+    {
+        "name": "征服者威望",
+        "type": "Pantheon",
+        "uniques": [
+        "Comment [令骑乘单位对战城市+20%战斗力]",
+        ]
+    },
+    {
+        "name": "闪电战",
+        "type": "Pantheon",
+        "uniques": [
+        "Comment [令远程单位对战城市攻击时+15%战斗力]",
+        ]
+    },
+    {
+        "name": "下游地带",
+        "type": "Pantheon",
+        "uniques": ["[+1 Gold] from every [River] <in [Plains] tiles>"
+        ]
+    },
+    {
+        "name": "大守护者",
+        "type": "Pantheon",
+        "uniques": ["[+10]% Production when constructing [Culture] buildings [in all cities]"
+        ]
+    },
+    {
+        "name": "集体稳定",
+        "type": "Pantheon",
+        "uniques": ["[+1 Food] from every [Wheat] <in tiles adjacent to [Wheat] tiles>"
+        ]
+    },
+    {
+        "name": "开化思潮",
+        "type": "Pantheon",
+        "uniques": ["[+20]% [Science] [in capital]",
+        ]
+    },
+    {
+        "name": "高开低走",
+        "type": "Pantheon",
+        "uniques": ["[+1 Science, +1 Culture, +1 Gold] from every [Strategic resource]"
+        ]
+    },
+    {
+        "name": "地广人稀",
+        "type": "Pantheon",
+        "uniques": ["[-33]% Culture cost of natural border growth [in all cities]",
+        "[-15]% growth [in all cities]"
+        ]
+    },
+    {
+        "name": "低俗主义",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture, -1 Production] [in all cities]",
+        "[+1 Production] [in all cities] <in cities with at least [2] [Population]>"
+        ]
+    },
+    {
+        "name": "世界观",
+        "type": "Pantheon",
+        "uniques": ["Comment [令[Siege]单位视野+2]",
+        "Comment [令攻城单位击杀敌方所有单位时获得[Science]（≈已击杀单位的战斗力×50%）]",
+        ]
+    },
+    {
+        "name": "军事义务",
+        "type": "Pantheon",
+        "uniques": [
+        "Comment [额外拥有2单位补给]",
+        ]
+    },
+    {
+        "name": "列队",
+        "type": "Pantheon",
+        "uniques": ["Free [Spearman] appears",
+        "Comment [令[Spearman]单位对战[Mounted]单位战斗力+25%]",
+        ]
+    },
+    {
+        "name": "人工宝藏",
+        "type": "Pantheon",
+        "uniques": [
+        "Comment [摧毁蛮族营地或劫掠城市时获得三倍金币]",
+        "[+5 Gold] [in annexed cities]"
+        ]
+    },
+    {
+        "name": "自动花园",
+        "type": "Pantheon",
+        "uniques": ["Gain a free [Garden] [in capital]",
+        "[+1 Culture] from all [Garden] buildings",]
+    },
+    {
+        "name": "物语",
+        "type": "Pantheon",
+        "uniques": [
+        "Comment [令[Civilian]单位战斗力+100%]",
+        ]
+    },
+    {
+        "name": "自由活动",
+        "type": "Pantheon",
+        "uniques": [
+        "Comment [令[Worker]单位移动力+1]",
+        "Comment [令[Settler]单位移动力+1]",
+        ]
+    },
+    {
+        "name": "暗黑心理学",
+        "type": "Pantheon",
+        "uniques": ["[+50]% Production when constructing [The Great Library] wonders [in capital]",
+        "[+10]% Production when constructing [Ancient era] wonders [in capital] <if [The Great Library] is not constructed>",
+        ]
+    },
+    {
+        "name": "反战",
+        "type": "Pantheon",
+        "uniques": [
+        "Comment [令所有单位攻击时战斗力-10%]",
+        "Comment [令所有单位防御时战斗力+10%]",
+        "[+1 Food, +1 Science] from every [Improvement] <with [6] to [6] neighboring [Improvement] tiles>"
+        ]
+    },
+    {
+        "name": "胜利者图腾",
+        "type": "Pantheon",
+        "uniques": ["[+2 Production, +1 Happiness] from every [National Wonder]"
+        ]
+    },
+    {
+        "name": "利剑",
+        "type": "Pantheon",
+        "uniques": ["Free [Worker] appears",
+        "[+15]% Production when constructing [Settler] units [in capital]"
+        ]
+    },
+    {
+        "name": "自我感知",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture] [in all cities] <in tiles adjacent to [Forest] tiles>",
+        "[+1 Science] [in all cities] <in tiles adjacent to [Jungle] tiles>",
+        "[+1 Food] [in all cities] <in tiles adjacent to [Marsh] tiles>"
+        ]
+    },
+    {
+        "name": "鸟巢主义",
+        "type": "Pantheon",
+        "uniques": ["[+3 Science, +1 Culture] [in all cities] <with [3] to [6] neighboring [Mountain] tiles>"
+        ]
+    },
+    {
+        "name": "固有格式",
+        "type": "Pantheon",
+        "uniques": ["[+1 Science] [in all cities] <in cities with at least [3] [Population]>",
+        "[+1 Gold] [in all cities] <in cities with at least [4] [Population]>",
+        "[+1 Faith] [in all cities] <in cities with at least [5] [Population]>",
+        ]
+    },
+    {
+        "name": "猎杀",
+        "type": "Pantheon",
+        "uniques": [
+        "Comment [令近战单位对战远程单位攻击时战斗力+20%]",
+        ]
+    },
+    {
+        "name": "悲剧",
+        "type": "Pantheon",
+        "uniques": ["Discover [Drama and Poetry]",
+        "[+10]% [Science] <for [5] turns>"
+        ]
+    },
+    {
+        "name": "成为人类",
+        "type": "Pantheon",
+        "uniques": ["[+1 Food, +1 Faith, +1 Science, -1 Production] from every [Quarry]"
+        ]
+    },
+    {
+        "name": "承载体",
+        "type": "Pantheon",
+        "uniques": [
+        "Comment [令远程单位防御时在[City center]上战斗力+100%]",
+        ]
+    },
+    {
+        "name": "黄金三人",
+        "type": "Pantheon",
+        "uniques": ["[3] free [Archer] units appear"
+        ]
+    },
+    {
+        "name": "地表势力",
+        "type": "Pantheon",
+        "uniques": ["[+1 Production, +1 Gold] [in all cities] <in [Open terrain] tiles>"
+        ]
+    },
+    {
+        "name": "极端",
+        "type": "Pantheon",
+        "uniques": ["[+1 Production] from every [Pasture] <in tiles adjacent to [Quarry] tiles>"
+        ]
+    },
+    {
+        "name": "简易食物",
+        "type": "Pantheon",
+        "uniques": ["[+1 Production, +1 Food] from every [Mine] <in [Salt] tiles>"
+        ]
+    },
+    {
+        "name": "铜矿山脉",
+        "type": "Pantheon",
+        "uniques": ["[+2 Production, +2 Food] from every [Mountain] <in tiles adjacent to [Copper] tiles>"
+        ]
+    },
+    {
+        "name": "工业作诗",
+        "type": "Pantheon",
+        "uniques": ["[+2 Culture] from every [Amphitheater]"
+        ]
+    },
+    {
+        "name": "补齐",
+        "type": "Pantheon",
+        "uniques": ["[+1 Science] per [3] population [in cities following this religion] <in cities with a [Library]>"
+        ]
+    },
+    {
+        "name": "海陆空",
+        "type": "Pantheon",
+        "uniques": [
+        "Comment [令陆地单位当和水上单位相邻时+20%战斗力]",
+        "Comment [令陆地单位当和空军单位相邻时+20%战斗力]",
+        "Comment [令水上单位当和陆地单位相邻时+20%战斗力]",
+        "Comment [令水上单位当和空军单位相邻时+20%战斗力]",
+        "Comment [令空军单位当和陆地单位相邻时+20%战斗力]",
+        "Comment [令空军单位当和水上单位相邻时+20%战斗力]",
+        ]
+    },
+    {
+        "name": "空降",
+        "type": "Pantheon",
+        "uniques": ["[-1] population [in capital]",
+        "[+3] population in a random city"
+        ]
+    },
+    {
+        "name": "极速主义",
+        "type": "Pantheon",
+        "uniques": ["Gain [500] [Gold] <before turn number [10]>"
+        ]
+    },
+    {
+        "name": "通信中断",
+        "type": "Pantheon",
+        "uniques": [
+        "Comment [令军事单位对战城市防御时+50%战斗力]"
+        ]
+    },
+    {
+        "name": "获得者",
+        "type": "Pantheon",
+        "uniques": ["[2] free [自由工人] units appear",
+        "Comment [其可以进行[Remove Forest][Remove Jungle][Remove Marsh]]",
+        ]
+    },
+    {
+        "name": "生于原野",
+        "type": "Pantheon",
+        "uniques": ["[+1 Production] from every [Pasture] <in [Horses] tiles>",
+        "[+1 Food] from every [Camp] <in [Deer] tiles>"
+        ]
+    },
+    {
+        "name": "沿河突击",
+        "type": "Pantheon",
+        "uniques": [
+        "Comment [令所有单位在[River]地块上战斗力+15%]"
+        ]
+    },
+    {
+        "name": "强调",
+        "type": "Pantheon",
+        "uniques": [
+        "Comment [令[Spearman]单位移动力+1]",
+        "Comment [令[Pikeman]单位移动力+1]",
+        ]
+    },
+    {
+        "name": "适应性",
+        "type": "Pantheon",
+        "uniques": [
+        "Comment [令所有单位在[Hill]地块上作战时攻击时+15%战斗力]"
+        ]
+    },
+    {
+        "name": "通往世界",
+        "type": "Pantheon",
+        "uniques": ["[+1 Happiness] from every [Luxury resource] <in tiles adjacent to [Luxury resource] tiles>"
+        ]
+    },
+    {
+        "name": "安抚曲",
+        "type": "Pantheon",
+        "uniques": ["[+1 Happiness] from every [Pasture] <in [Hill] tiles> <in tiles adjacent to [City center] tiles>"
+        ]
+    },
+    {
+        "name": "预计",
+        "type": "Pantheon",
+        "uniques": ["[-20]% Food is carried over after population increases [in all coastal cities]"
+        ]
+    },
+    {
+        "name": "沉睡的机器",
+        "type": "Pantheon",
+        "uniques": ["[+1 Science] from all [World Wonder] buildings <when not at war>",
+        "[+1 Production] from all [World Wonder] buildings <when at war>"
+        ]
+    },
+    {
+        "name": "白色信条",
+        "type": "Pantheon",
+        "uniques": ["Gain enough Faith for [65]% of a Great Prophet"
+        ]
+    },
+    {
+        "name": "迁移主义",
+        "type": "Pantheon",
+        "uniques": ["[1] free [洋流追随者] units appear",
+         "Comment [其可以进行在临近[Coast]的地块建立新的城市]",
+        ]
+    },
+    {
+        "name": "乐观主义",
+        "type": "Pantheon",
+        "uniques": ["[+1 Happiness] [in capital]",
+        "[+15]% Production when constructing [Happiness] buildings [in all cities]"
+        ]
+    },{
+        "name": "悲观主义",
+        "type": "Pantheon",
+        "uniques": ["[-1 Happiness] [in capital]",
+        "[+1 Culture, +1 Science] from all [Happiness] buildings"
+        ]
+    },
+    {
+        "name": "虚无主义",
+        "type": "Pantheon",
+        "uniques": ["Comment [[Happiness]低于-20时不会出现反叛单位]",
+        "Comment [[Happiness]低于-10时无视低快乐造成的战斗力减益]",
+        ]
+    },
+    {
+        "name": "美人鱼",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Fish]",
+        "[+1 Faith] [in all cities] <in tiles adjacent to [Fish] tiles>"
+        ]
+    },
+    {
+        "name": "极高",
+        "type": "Pantheon",
+        "uniques": ["[2] free random researchable Tech(s) from the [Ancient era]"
+        ]
+    },
+    {
+        "name": "非物质富裕",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture] [in all cities] <in cities with at least [3] [Population]>"
+        ]
+    },
+    {
+        "name": "海豚娘",
+        "type": "Pantheon",
+        "uniques": ["Free [海豚娘] appears",
+        "Comment [允许建造[海豚娘]]",
+        ]
+    },
+    {
+        "name": "蓄积",
+        "type": "Pantheon",
+        "uniques": ["Comment [当创建一个宗教时，可以额外选择2个[Pantheon]信条]"
+        ]
+    },
+    {
+        "name": "免疫力",
+        "type": "Pantheon",
+        "uniques": [
+        "Comment [令[Archery]单位防御时在[Hill]地块上战斗力+20%]",
+        ]
+    },
+    {
+        "name": "两城",
+        "type": "Pantheon",
+        "uniques": ["Provides a [Walls] in your first [2] cities for free"
+        ]
+    },
+    {
+        "name": "获罪",
+        "type": "Pantheon",
+        "uniques": ["Gain [500] [Gold]",
+        "Comment [在所有城市中新组建的[Civilian]单位获得[囚禁]晋升]",
+        "Comment [拥有[囚禁]的单位处于远古时代时无法移动]",
+        ]
+    },
+    {
+        "name": "安睡",
+        "type": "Pantheon",
+        "uniques": ["Comment [当前回合结束时所有单位回复所有HP]"
+        ]
+    },
+    {
+        "name": "遥远的东方",
+        "type": "Pantheon",
+        "uniques": ["[+1 Production, +1 Culture, +1 Happiness] [in all cities connected to capital]"
+        ]
+    },
+    {
+        "name": "晨拜",
+        "type": "Pantheon",
+        "uniques": ["[+15]% Production when constructing [Faith] buildings [in all cities]"
+        ]
+    },
+    {
+        "name": "访问",
+        "type": "Pantheon",
+        "uniques": ["Gain a free [Library] [in all cities] <in cities without a [Monument]> <after discovering [Writing]>",
+        ]
+    },
+    {
+        "name": "制酿技艺",
+        "type": "Pantheon",
+        "uniques": ["Provides [4] [Wine] <when above [0] [Wine]>"
+        ]
+    },
+    {
+        "name": "水果树",
+        "type": "Pantheon",
+        "uniques": ["[-1 Production, +1 Food] from every [Forest]",
+        "[+1 Faith, +1 Food] from every [Forest] <starting from the [Classical era]>"
+        ]
+    },
+    {
+        "name": "舞之光极",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Forest] <in [Tundra] tiles>"
+        ]
+    },
+    {
+        "name": "分界地带",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture] from every [Pasture] <in tiles adjacent to [City center] tiles>",
+        "[+1 Culture] [in this city] <in tiles adjacent to [Pasture] tiles>"
+        ]
+    },
+    {
+        "name": "教育资源",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Mine] <in tiles adjacent to [City center] tiles>",
+        "[+1 Faith] from every [Mine] <in tiles adjacent to [Natural Wonder] tiles>"
+        ]
+    },
+    {
+        "name": "工人纪念碑",
+        "type": "Pantheon",
+        "uniques": ["[+20]% Production when constructing [Ancient era] wonders [in cities following this religion]",
+        "[+10]% Production when constructing [Classical era] wonders [in cities following this religion]"
+        ]
+    },
+    {
+        "name": "大扩张之心",
+        "type": "Pantheon",
+        "uniques": ["[-60]% Culture cost of natural border growth [in this city] <in cities with [1] [Population]>",
+        "[-30]% Culture cost of natural border growth [in this city] <in cities with [2] [Population]>",
+        "[-15]% Culture cost of natural border growth [in this city] <in cities with [3] [Population]>"
+        ]
+    },
+///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
+    {
+        "name": "Asceticism",
+        "type": "Follower",
+        "uniques": ["[+1 Happiness] from every [Shrine] <in cities with at least [3] [Followers of this Religion]>"]
+    },
+    {
+        "name": "Cathedrals",
+        "type": "Follower",
+        "uniques": ["May buy [Cathedral] buildings with [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Choral Music",
+        "type": "Follower",
+        "uniques": ["[+2 Culture] from every [Temple] <in cities with at least [5] [Followers of this Religion]>"]
+    },
+    {
+        "name": "Divine inspiration",
+        "type": "Follower",
+        "uniques": ["[+2 Faith] from every [Wonder]"]
+    },
+    {
+        "name": "Feed the World",
+        "type": "Follower",
+        "uniques": ["[+1 Food] from every [Shrine]", "[+1 Food] from every [Temple]"]
+    },
+    {
+        "name": "Guruship",
+        "type": "Follower",
+        "uniques": ["[+2 Production] [in cities following this religion] <in cities with at least [1] [Specialists]>"]
+    },
+    {
+        "name": "Holy Warriors",
+        "type": "Follower",
+        "uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]>"]
+    },
+    {
+        "name": "Liturgical Drama",
+        "type": "Follower",
+        "uniques": ["[+1 Faith] from every [Amphitheater] <in cities with at least [3] [Followers of this Religion]>"]
+    },
+    {
+        "name": "Monasteries",
+        "type": "Follower",
+        "uniques": ["May buy [Monastery] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Mosques",
+        "type": "Follower",
+        "uniques": ["May buy [Mosque] buildings with [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Pagodas",
+        "type": "Follower",
+        "uniques": ["May buy [Pagoda] buildings with [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Peace Gardens",
+        "type": "Follower",
+        "uniques": ["[+2 Happiness] from every [Garden]"]
+    },
+    {
+        "name": "Religious Art",
+        "type": "Follower",
+        "uniques": ["[+8 Culture] from every [Hermitage]"]
+    },
+    {
+        "name": "Religious Center",
+        "type": "Follower",
+        "uniques": ["[+2 Happiness] from every [Temple] <in cities with at least [5] [Followers of this Religion]>"]
+    },
+    {
+        "name": "Religious Community",
+        "type": "Follower",
+        "uniques": ["[+1]% [Production] from every follower, up to [15]%"]
+    },
+    {
+        "name": "Swords into Ploughshares",
+        "type": "Follower",
+        "uniques": ["[+15]% growth [in this city] <when not at war>"]
+    },
+    {
+        "name": "人各有志",
+        "type": "Follower",
+        "uniques": ["[+25]% growth [in this city]",
+        "[+1 Food] [in this city]",
+        "[-15]% [Food] [in this city]"]
+    },
+    {
+        "name": "完全视奸",
+        "type": "Follower",
+        "uniques": ["All newly-trained [Military] units [in cities following this religion] receive the [让我看看] promotion"]
+    },
+    {
+        "name": "瞭望塔",
+        "type": "Follower",
+        "uniques": ["Comment [令[Scout]单位视野+2]"]
+    },
+    {
+        "name": "苦痛世界",
+        "type": "Follower",
+        "uniques": [
+        "Comment [令所有单位快乐在-10到-1之间时战斗力+20%]"]
+    },
+    {
+        "name": "重整思维",
+        "type": "Follower",
+        "uniques": ["Gain a free [Library] [in cities following this religion]",
+        "[+1 Science] from every [Library]"]
+    },
+    {
+        "name": "赞成思想",
+        "type": "Follower",
+        "uniques": [
+        "Comment [每推行2个政策+1[Happiness]]",
+        "Comment [每推行3个政策+1[Happiness]]",]
+    },
+    {
+        "name": "停风",
+        "type": "Follower",
+        "uniques": ["Free Social Policy",
+        "Comment [所有单位持续1回合无法移动]"]
+    },
+    {
+        "name": "高速运转的机器",
+        "type": "Follower",
+        "uniques": ["[+1 Production] from all [Production] buildings"]
+    },
+    {
+        "name": "神力",
+        "type": "Follower",
+        "uniques": ["All newly-trained [All] units [in cities following this religion] receive the [神力] promotion"]
+    },
+    {
+        "name": "握握手",
+        "type": "Follower",
+        "uniques": [
+        "Comment [令所有单位和平时战斗力+50%]"]
+    },
+    {
+        "name": "无端杀戮",
+        "type": "Follower",
+        "uniques": ["[+10]% Production when constructing [Military] units [in cities following this religion]",
+        "[+10]% Production when constructing [Military] units [in cities following this religion] <when below [0] Happiness>",]
+    },
+    {
+        "name": "咕咕嘎嘎",
+        "type": "Follower",
+        "uniques": ["[+50]% Yield from every [Quarry] <in tiles adjacent to [City center] tiles>"]
+    },
+    {
+        "name": "借一块钱",
+        "type": "Follower",
+        "uniques": ["Gain [1] [Gold]"]
+    },
+    {
+        "name": "白色大衣",
+        "type": "Follower",
+        "uniques": ["[+1 Faith] [in capital] <for every [1] [[Scout] Units]>"]
+    },
+///////////////////////////////////////// Founder beliefs //////////////////////////////////////////
+
+    {
+        "name": "Ceremonial Burial",
+        "type": "Founder",
+        "uniques": ["[+1 Happiness] for each global city following this religion"]
+    },
+    {
+        "name": "Church Property",
+        "type": "Founder",
+        "uniques": ["[+2 Gold] for each global city following this religion"]
+    },
+    {
+        "name": "Initiation Rites",
+        "type": "Founder",
+        "uniques": ["[+100 Gold] when a city adopts this religion for the first time <(modified by game speed)>"]
+    },
+    {
+        "name": "Interfaith Dialogue",
+        "type": "Founder",
+        "uniques": ["When spreading religion to a city, gain [10] times the amount of followers of other religions as [Science]"]
+    }
+    {
+        "name": "Papal Primacy",
+        "type": "Founder",
+        "uniques": ["Resting point for Influence with City-States following this religion [+15]"]
+    },
+    {
+        "name": "Peace Loving",
+        "type": "Founder",
+        "uniques": ["[+1 Happiness] from every [5] global followers [in non-enemy foreign cities]"]
+    },
+    {
+        "name": "Pilgrimage",
+        "type": "Founder",
+        "uniques": ["[+2 Faith] for each global city following this religion"]
+    },
+    {
+        "name": "Tithe",
+        "type": "Founder",
+        "uniques": ["[+1 Gold] from every [4] global followers [in all cities]"]
+    },
+    {
+        "name": "World Church",
+        "type": "Founder",
+        "uniques": ["[+1 Culture] from every [5] global followers [in foreign cities]"]
+    },
+    {
+        "name": "中心论",
+        "type": "Founder",
+        "uniques": ["[+1 Production, +1 Science] [in cities following this religion]"]
+    },
+    {
+        "name": "地球大炮",
+        "type": "Founder",
+        "uniques": ["[-50]% maintenance on road & railroads",
+        "[-25]% construction time for [Road] improvements",
+        "[-25]% construction time for [Railroad] improvements",]
+    },
+    {
+        "name": "最终受益人",
+        "type": "Founder",
+        "uniques": ["[+1 Culture] from every [4] global followers [in non-enemy foreign cities]",
+        "[+15]% Culture cost of natural border growth [in capital]"]
+    },
+    {
+        "name": "那是什么",
+        "type": "Founder",
+        "uniques": ["Comment [令[Civilian]单位[Invisible to non-adjacent units]，如果可能]"]
+    },
+    {
+        "name": "超自由活动",
+        "type": "Founder",
+        "uniques": ["Comment [令[Worker]单位移动力+1]",
+        "Comment [令[Settler]单位移动力+1]",
+        "Comment [令[Work Boats]单位移动力+1]"]
+    },
+    {
+        "name": "革命",
+        "type": "Founder",
+        "uniques": ["Gain [1500] [Gold]",
+        "Comment [持续15回合可能会出现反叛单位]"]
+    },
+    {
+        "name": "阳谋",
+        "type": "Founder",
+        "uniques": ["Comment [[Military]单位位于敌国领土时[Invisible to non-adjacent units]]",
+        "Comment [[Siege]单位攻击时对战城市+50%战斗力]"]
+    },
+    {
+        "name": "岩石圈",
+        "type": "Founder",
+        "uniques": ["[+1 Production] from [Mine] tiles [in cities following this religion] <in tiles adjacent to [Quarry] tiles>"]
+    },
+    {
+        "name": "响应",
+        "type": "Founder",
+        "uniques": ["Adopt [Warrior Code] <before adopting [Warrior Code]>",
+        "Free Social Policy <after adopting [Warrior Code]>"]
+    },
+    {
+        "name": "理想国",
+        "type": "Founder",
+        "uniques": ["[-1 Production, -1 Food, -1 Gold, -1 Faith, -1 Culture, -1 Science, -1 Happiness] [in all cities]",
+        "[+1 Production, +1 Food, +1 Gold, +1 Faith, +1 Culture, +1 Science, +1 Happiness] from every [World Wonder]",
+        "Comment [[Utopia Project]的产能花费-100%]"]
+    },
+    {
+        "name": "高尚战争",
+        "type": "Founder",
+        "uniques": ["[+20]% Strength <for [All] units> <when fighting in [All] tiles> <in cities following our religion>"]
+    },
+    {
+        "name": "爱国热忱",
+        "type": "Founder",
+        "uniques": ["Comment [每回合首个非空军单位对战非空军单位攻击时+100%战斗力]"]
+    },
+    {
+        "name": "节约主义",
+        "type": "Founder",
+        "uniques": ["[+100]% Production when constructing [Settler] units [in capital]",
+        "[+50]% Production when constructing [Worker] units [in all cities]"]
+    },
+    {
+        "name": "太阳能",
+        "type": "Founder",
+        "uniques": ["[+1 Gold] from [Hill] tiles [in cities following this religion]"]
+    },
+    {
+        "name": "远视",
+        "type": "Founder",
+        "uniques": ["Comment [令[Scout]单位视野+2]",
+        "Comment [令[Scout]单位维护费-100%]"]
+    },
+    {
+        "name": "瘟疫",
+        "type": "Founder",
+        "uniques": ["Comment [令所有单位位于相邻的陆地地块中的敌方所有单位-10%战斗力]"]
+    },
+    {
+        "name": "自然科学",
+        "type": "Founder",
+        "uniques": ["[+1 Science] per [3] population [in this city] <with a garrison>",
+        "[+1 Science] [in this city] <with a garrison>"]
+    },
+    {
+        "name": "大阿尔法",
+        "type": "Founder",
+        "uniques": [
+        "[+1 Faith] from every [All] <in tiles adjacent to [City center] tiles>",]
+    },
+    {
+        "name": "闭门",
+        "type": "Founder",
+        "uniques": [
+        "[+15]% [Culture] [in all cities]",
+        "[+5]% [Culture] [in cities following this religion]",]
+    },
+    {
+        "name": "信任与不进化",
+        "type": "Founder",
+        "uniques": [
+        "[+50]% Gold cost of upgrading <before turn number [100]>",
+        "[-50]% Gold cost of upgrading <after turn number [100]>",]
+    },
+    {
+        "name": "虚空企划",
+        "type": "Founder",
+        "uniques": [
+        "Free Social Policy",
+        "Free Social Policy <when number of [Cities] is more than [3]>",]
+    },
+    {
+        "name": "阴谋论",
+        "type": "Founder",
+        "uniques": [
+        "Comment [在首都100格半径内最多显示所有[City center]与[Ancient ruins]]",
+        "Comment [首都获得一座免费的[阴谋论者]，在接下来的一回合内所有文明的回合结束时将会消灭所有[City center]与[Ancient ruins]一格半径内的所有单位]",]
+    },
+    {
+        "name": "骗局",
+        "type": "Founder",
+        "uniques": [
+        "Comment [解锁骗局胜利系列任务（目前未实装，敬请期待）]"]
+    },
+    {
+        "name": "自然园林",
+        "type": "Founder",
+        "uniques": [
+        "Comment [无法组建[Utopia Project]]",
+        "Comment [可消耗平民单位或军事单位一次受到80伤害使当前地块转变为[Forest]]",
+        "Comment [无法进行[Remove Forest]]",
+        "Comment [允许建造[园林]地块（需要科技：[Civil Service]）]",
+        "[Military] units gain the [园林管家] promotion <hidden from users>",
+        "[Civilian] units gain the [园林工匠] promotion <hidden from users>"]
+    },
+    {
+        "name": "毁灭者虚影",
+        "type": "Founder",
+        "uniques": [
+        "Free [Giant Death Robot] appears",
+        "[Giant Death Robot] units gain the [沉睡的核心] promotion"]
+    },
+    {
+        "name": "成为恶魔",
+        "type": "Founder",
+        "uniques": [
+        "Provides [3] [Uranium]",
+        "[+100]% Production when constructing [Manhattan Project] buildings [in all cities]",
+        "Comment [[Manhattan Project]可以被加速建造]"]
+    },
+    {
+        "name": "另一面",
+        "type": "Founder",
+        "uniques": [
+        "Gain an extra spy"
+        "Comment [首都获得一座免费的[海外策反局]，在接下来的一回合内所有文明的回合结束时获得1个间谍]",
+        "[-25]% enemy spy effectiveness [in all cities]"]
+    },
+    {
+        "name": "社交的手腕",
+        "type": "Founder",
+        "uniques": [
+        "Can spend Gold to annex or puppet a City-State that has been your Ally for [20] turns"]
+    },
+    {
+        "name": "战争经济学",
+        "type": "Founder",
+        "uniques": [
+        "Comment [[Great Merchant]为3格内的单位提供15%的战斗力加成]",
+        "Free [Great Merchant] appears"]
+    },
+    {
+        "name": "猫",
+        "type": "Founder",
+        "uniques": [
+        "Free [Neko] appears",
+        "Comment [哈！]",]
+    },
+    {
+        "name": "北极星",
+        "type": "Founder",
+        "uniques": [
+        "[+200]% Strength <for [All] units> <when fighting in [Friendly Land] tiles> <for [5] turns>",
+        "No damage penalty for wounded units <for [All] units> <for [5] turns>"]
+    },
+    {
+        "name": "全部补齐",
+        "type": "Founder",
+        "uniques": [
+        "Comment [若处于古典时代，解锁远古时代所有科技]",
+        "[11] free random researchable Tech(s) from the [Ancient era] <starting from the [Classical era]> <hidden from users>",
+        "[11] free random researchable Tech(s) from the [Ancient era] <starting from the [Classical era]> <hidden from users>"]
+    },
+    {
+        "name": "经验加超过二但不到四",
+        "type": "Founder",
+        "uniques": [
+        "[3] XP gained from combat <for [All] units>"]
+    },
+    {
+        "name": "不是人类",
+        "type": "Founder",
+        "uniques": [
+        "Free [企鹅] appears",
+        "Comment [[企鹅]只允许建造[Quarry]且仅需1回合]",
+        "[+1 Gold] from every [Quarry] <starting from the [Ancient era]>",
+        "[+1 Science, +1 Gold] from every [Quarry] <starting from the [Classical era]>",
+        "[+2 Gold] from every [Quarry] <starting from the [Medieval era]>",
+        "[+1 Production, +1 Culture] from every [Quarry] <starting from the [Renaissance era]>",
+        "[+2 Production, +1 Science, -3 Gold] from every [Quarry] <starting from the [Industrial era]>",
+        "[+1 Production, +2 Culture] from every [Quarry] <starting from the [Modern era]>",
+        "[+1 Production, +3 Food] from every [Quarry] <starting from the [Atomic era]>",
+        "[+2 Production, +2 Culture, +2 Science] from every [Quarry] <starting from the [Information era]>",
+        "[+2 Production, +3 Culture, +3 Science, +4 Food, +4 Happiness, +4 Gold] from every [Quarry] <starting from the [Future era]>"]
+    },
+    {
+        "name": "魔法使",
+        "type": "Founder",
+        "uniques": [
+        "Free [魔法使] appears",
+        "Comment [[魔法使]一旦被消灭将会为首都提供一座免费的[魔法使纪念碑]，其可以使所有城市的全产出+5%]"]
+    },
+
+    ////////////////////////////////////// Enhancer beliefs ///////////////////////////////////////
+
+    {
+        "name": "Defender of the Faith",
+        "type": "Enhancer",
+        "uniques": ["[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"]
+        // ToDo: Should only be friendly territory of cities that follow this religion
+    },
+    {
+        "name": "Holy Order",
+        "type": "Enhancer",
+        "uniques": ["[Faith] cost of purchasing [Missionary] units [-30]%", "[Faith] cost of purchasing [Inquisitor] units [-30]%"]
+    },
+    {
+        "name": "Itinerant Preachers",
+        "type": "Enhancer",
+        "uniques": ["Religion naturally spreads to cities [+3] tiles away"]
+    },
+    {
+        "name": "Just War",
+        "type": "Enhancer",
+        "uniques": ["[+20]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"]
+        // ToDo: Should only be enemy territory of cities that follow this religion
+    },
+    {
+        "name": "Messiah",
+        "type": "Enhancer",
+        "uniques": ["[+25]% Spread Religion Strength <for [Great Prophet] units>", "[-25]% Faith cost of generating Great Prophet equivalents"]
+    },
+    {
+        "name": "Missionary Zeal",
+        "type": "Enhancer",
+        "uniques": ["[+25]% Spread Religion Strength <for [Missionary] units>"]
+    },
+    {
+        "name": "Religious Texts",
+        "type": "Enhancer",
+        "uniques": ["[+34]% Natural religion spread [in all cities]", "[+34]% Natural religion spread [in all cities] <after discovering [Printing Press]>"]
+    },
+    {
+        "name": "Religious Unity",
+        "type": "Enhancer",
+        "uniques": ["[+100]% Natural religion spread [in City-State cities]"]
+    },
+    {
+        "name": "Reliquary",
+        "type": "Enhancer",
+        "uniques": ["Gain [50] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>"]
+    }
+]
