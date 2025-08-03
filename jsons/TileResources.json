@@ -509,6 +509,14 @@
 					"Doesn't generate naturally <in [{Tundra} {Forest}] tiles>"]
 	},
 	{
+		"name": "Agate Relief",
+		"resourceType": "Luxury",
+		"gold": 5,
+		"uniques": ["[+1 Culture] from [Gold Ore] tiles [in all cities]",
+		"[+1 Culture] from [Silver] tiles [in all cities]",
+		"[+1 Culture] from [Gems] tiles [in all cities]",]
+	},
+	{
 		"name": "爱国热忱计数器",
 		"resourceType": "Strategic",
 		"revealedBy": "计数器存储",
@@ -557,6 +565,18 @@
 		]
 	},
 	{
+		"name": "集中",
+		"resourceType": "Strategic",
+		"revealedBy": "计数器存储",
+		"uniques": [
+		"Cannot be traded"
+		"Not shown on world screen"
+		"Stockpiled"
+		"Will not be displayed in Civilopedia"
+		"Comment [计数器类型资源]"
+		]
+	},
+	{
 		"name": "国家意志",
 		"resourceType": "Strategic",
 		"revealedBy": "计数器存储",
@@ -588,6 +608,29 @@
 		"Cannot be traded"
 		"Not shown on world screen"
 		"Stockpiled"
+		"Will not be displayed in Civilopedia"
+		"Comment [计数器类型资源]"
+		]
+	},
+	{
+		"name": "战争时节计数器",
+		"resourceType": "Strategic",
+		"revealedBy": "计数器存储",
+		"uniques": [
+		"Cannot be traded"
+		"Not shown on world screen"
+		"Stockpiled"
+		"Will not be displayed in Civilopedia"
+		"Comment [计数器类型资源]"
+		]
+	},
+	{
+		"name": "UB1",
+		"resourceType": "Strategic",
+		"revealedBy": "计数器存储",
+		"uniques": [
+		"Cannot be traded"
+		"Not shown on world screen"
 		"Will not be displayed in Civilopedia"
 		"Comment [计数器类型资源]"
 		]
