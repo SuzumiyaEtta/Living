@@ -1,17 +1,4 @@
-[
-	//Spectator
-    //Not "Excluded from map editor" as it serves as placeholder for "Any Civ" starting locations
-	{
-		"name": "Spectator",
-		"outerColor": [255,255,255]
-//		"innerColor": [255,255,255]
-	},
-
-	{
-		//nations
-		"name": "Babylon",
-		"leaderName": "Unknown leader",
-		"adjective": ["Babylonian"],
+onian"],
 		"startBias": ["Avoid [Tundra]"],
 		"preferredVictoryType": "Scientific",
 		"personality": "Nebuchadnezzar II",
@@ -260,8 +247,8 @@
 		"innerColor": [0, 0, 0],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Siberian Riches",
-		"uniques": ["[+1 Production] from every [Strategic resource]","Double quantity of [Horses] produced",
-			"Double quantity of [Iron] produced","Double quantity of [Uranium] produced"],
+		"uniques": ["[+1 Production] from every [Strategic resource]","[+100]% [Horses] resource production",
+			"[+100]% [Iron] resource production","[+100]% [Uranium] resource production"],
 		"cities": ["Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
 			"Krasnoyarsk","Khabarovsk","Bryansk","Tver","Novosibirsk","Magadan","Murmansk","Irkutsk","Chita","Samara",
 			"Arkhangelsk","Chelyabinsk","Tobolsk","Vologda","Omsk","Astrakhan","Kursk","Saratov","Tula","Vladimir","Perm",
@@ -320,7 +307,7 @@
 		"innerColor": [146, 221, 10],
 		"favoredReligion": "Islam",
 		"uniqueName": "Trade Caravans",
-		"uniques": ["[+1 Gold] from each Trade Route","[+1 Gold] from every [Desert]","Double quantity of [Oil] produced",
+		"uniques": ["[+1 Gold] from each Trade Route","[+1 Gold] from every [Desert]","[+100]% [Oil] resource production",
 		//萨拉丁·阿尤布·本能力
 		"[+1 Production] [in all cities] <for every [3] [[Mounted] Units]> <when number of [[Mounted] Units] is less than [3]> <when between [1] and [1] [国家意志]> <hidden from users>",
 		"[+2 Production] [in all cities] <when number of [[Mounted] Units] is more than [2]> <when between [1] and [1] [国家意志]> <hidden from users>",
@@ -354,7 +341,9 @@
 
         "favoredReligion": "Christianity",
 		"uniqueName": "Manifest Destiny",
-		"uniques": ["[+1] Sight <for [{Military} {Land}] units>", "[-50]% Gold cost of acquiring tiles [in all cities]",
+		"uniques": ["[+1] Sight <for [{Military} {Land}] units>",
+		"[+15]% Strength <vs [Barbarian] units> <for [{Military} {Land}] units>",
+		"[-50]% Gold cost of acquiring tiles [in all cities]",
 		"[-25]% Gold cost of acquiring tiles [in capital]",
 		//安德鲁·杰克逊能力
         "[+50]% Strength <vs [Barbarian] units> <for [Gunpowder] units> <when between [1] and [1] [国家意志]> <hidden from users>",],
@@ -420,7 +409,7 @@
 		"favoredReligion": "Hinduism",
 		"uniqueName": "Population Growth",
 		"uniques": ["[+25]% unhappiness from the number of cities", "[-15]% Unhappiness from [Population] [in all cities]",
-		"[+25]% growth [in all cities] <when between [-10] and [-1] Happiness>"],
+		"[+25]% growth [in all cities] <when between [-10] and [-1] [Happiness]>"],
 		"cities": ["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad",
 			"Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur",
 			"Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur","Karachi"],
@@ -519,7 +508,7 @@
         "uniques": ["[+2 Science] from every specialist [in all cities]", "[+2 Science] from every [Great Improvement]","Receive a tech boost when scientific buildings/wonders are built in capital",
         //朴正熙能力
         "[+3 Gold] from every specialist [in capital] <when between [1] and [1] [国家意志]> <hidden from users>",
-        "Gain [300] [Gold] <upon expending a [Great Merchant] unit> <(modified by game speed)> <when between [1] and [1] [国家意志]> <hidden from users>",
+        "Gain [800] [Gold] <upon expending a [Great Merchant] unit> <(modified by game speed)> <when between [1] and [1] [国家意志]> <hidden from users>",
         ],
 		"cities": ["Pyongyang","Seoul","Busan","Jeonju","Daegu","Kaesong","Suwon","Gwangju","Gangneung","Hamhung","Wonju","Ulsan",
 			"Changwon","Andong","Gongju","Haeju","Cheongju","Mokpo","Dongducheon","Geoje","Suncheon","Jinju","Sangju",
@@ -551,7 +540,8 @@
 
         "favoredReligion": "Christianity",
 		"uniqueName": "The Great Warpath",
-		"uniques": ["All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel."],
+		"uniques": ["All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel. <hidden from users>",
+		"Comment [All units move through Forest and Jungle Tiles as if they have roads. These tiles in friendly territory can be used to establish City Connections upon researching the Wheel.]"],
 		"cities": ["Onondaga","Osininka","Grand River","Akwesasme","Buffalo Creek","Brantford","Montreal","Genesse River",
 			"Canandaigua Lake","Lake Simcoe","Salamanca","Gowanda","Cuba","Akron","Kanesatake","Ganienkeh","Cayuga Castle",
 			"Chondote","Canajoharie","Nedrow","Oneida Lake","Kanonwalohale","Green Bay","Southwold","Mohawk Valley",
@@ -620,7 +610,9 @@
 		"uniqueName": "Wayfinding",
 		"uniques": ["Enables embarkation for land units <starting from the [Ancient era]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
             "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>",
-            "[+1] Sight <for [Embarked] units>",  "[+10]% Strength <within [2] tiles of a [Moai]>"],
+            "[+1] Sight <for [Embarked] units>",  "[+15]% Strength <within [2] tiles of a [Moai]>",
+            //卡美哈梅哈一世能力
+            "[+100]% Production when constructing [Maori Warrior] units [in puppeted cities] <when between [1] and [1] [国家意志]> <hidden from users>"],
 		"cities": ["Honolulu","Samoa","Tonga","Nuku Hiva","Raiatea","Aotearoa","Tahiti","Hilo","Te Wai Pounamu","Rapa Nui",
 			"Tuamotu","Rarotonga","Tuvalu","Tubuai","Mangareva","Oahu","Kiritimati","Ontong Java","Niue","Rekohu",
 			"Rakahanga","Bora Bora","Kailua","Uvea","Futuna","Rotuma","Tokelau","Lahaina","Bellona","Mungava","Tikopia",
@@ -707,7 +699,7 @@
 		"outerColor": [214, 145, 19],
 		"innerColor": [90, 0, 10],
 		"favoredReligion": "Islam",
-		"uniqueName": "River Warlord",
+		"uniqueName": "High Soldiers",
 		"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities", "[+100]% Strength <when defending> <for [Embarked] units>",
 			"[{Military} {Land}] units gain the [Amphibious] promotion"],
 		"cities": ["Gao","Tombouctu","Jenne","Taghaza","Tondibi","Kumbi Saleh","Kukia","Walata","Tegdaoust","Argungu","Gwandu",
@@ -898,7 +890,33 @@
 		"innerColor": [255, 255, 255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Dutch East India Company",
-		"uniques": ["Retain [50]% of the happiness from a luxury after the last copy has been traded away"],
+		"uniques": ["Retain [115]% of the happiness from a luxury after the last copy has been traded away",
+		//文森特·威廉·梵高能力
+		"Gain [76] [Gold] <when number of [Cities] is equal to [2]> <upon founding a city> <if [Self-Portrait] is constructed in at least [1] of [in all cities] cities> <when between [1] and [1] [国家意志]> <hidden from users>",
+		"Gain [82] [Gold] <when number of [Cities] is equal to [3]> <upon founding a city> <if [Self-Portrait] is constructed in at least [1] of [in all cities] cities> <when between [1] and [1] [国家意志]> <hidden from users>",
+		"Gain [89] [Gold] <when number of [Cities] is equal to [4]> <upon founding a city> <if [Self-Portrait] is constructed in at least [1] of [in all cities] cities> <when between [1] and [1] [国家意志]> <hidden from users>",
+		"Gain [96] [Gold] <when number of [Cities] is equal to [5]> <upon founding a city> <if [Self-Portrait] is constructed in at least [1] of [in all cities] cities> <when between [1] and [1] [国家意志]> <hidden from users>",
+		"Gain [104] [Gold] <when number of [Cities] is equal to [6]> <upon founding a city> <if [Self-Portrait] is constructed in at least [1] of [in all cities] cities> <when between [1] and [1] [国家意志]> <hidden from users>",
+		"Gain [113] [Gold] <when number of [Cities] is equal to [7]> <upon founding a city> <if [Self-Portrait] is constructed in at least [1] of [in all cities] cities> <when between [1] and [1] [国家意志]> <hidden from users>",
+		"Gain [123] [Gold] <when number of [Cities] is equal to [8]> <upon founding a city> <if [Self-Portrait] is constructed in at least [1] of [in all cities] cities> <when between [1] and [1] [国家意志]> <hidden from users>",
+		"Gain [133] [Gold] <when number of [Cities] is equal to [9]> <upon founding a city> <if [Self-Portrait] is constructed in at least [1] of [in all cities] cities> <when between [1] and [1] [国家意志]> <hidden from users>",
+		"Gain [145] [Gold] <when number of [Cities] is equal to [10]> <upon founding a city> <if [Self-Portrait] is constructed in at least [1] of [in all cities] cities> <when between [1] and [1] [国家意志]> <hidden from users>",
+		"Gain [158] [Gold] <when number of [Cities] is equal to [11]> <upon founding a city> <if [Self-Portrait] is constructed in at least [1] of [in all cities] cities> <when between [1] and [1] [国家意志]> <hidden from users>",
+		"Gain [172] [Gold] <when number of [Cities] is equal to [12]> <upon founding a city> <if [Self-Portrait] is constructed in at least [1] of [in all cities] cities> <when between [1] and [1] [国家意志]> <hidden from users>",
+		"Gain [188] [Gold] <when number of [Cities] is equal to [13]> <upon founding a city> <if [Self-Portrait] is constructed in at least [1] of [in all cities] cities> <when between [1] and [1] [国家意志]> <hidden from users>",
+		"Gain [205] [Gold] <when number of [Cities] is equal to [14]> <upon founding a city> <if [Self-Portrait] is constructed in at least [1] of [in all cities] cities> <when between [1] and [1] [国家意志]> <hidden from users>",
+		"Gain [224] [Gold] <when number of [Cities] is equal to [15]> <upon founding a city> <if [Self-Portrait] is constructed in at least [1] of [in all cities] cities> <when between [1] and [1] [国家意志]> <hidden from users>",
+		"Gain [245] [Gold] <when number of [Cities] is equal to [16]> <upon founding a city> <if [Self-Portrait] is constructed in at least [1] of [in all cities] cities> <when between [1] and [1] [国家意志]> <hidden from users>",
+		"Gain [268] [Gold] <when number of [Cities] is equal to [17]> <upon founding a city> <if [Self-Portrait] is constructed in at least [1] of [in all cities] cities> <when between [1] and [1] [国家意志]> <hidden from users>",
+		"Gain [293] [Gold] <when number of [Cities] is equal to [18]> <upon founding a city> <if [Self-Portrait] is constructed in at least [1] of [in all cities] cities> <when between [1] and [1] [国家意志]> <hidden from users>",
+		"Gain [321] [Gold] <when number of [Cities] is equal to [19]> <upon founding a city> <if [Self-Portrait] is constructed in at least [1] of [in all cities] cities> <when between [1] and [1] [国家意志]> <hidden from users>",
+		"Gain [352] [Gold] <when number of [Cities] is equal to [20]> <upon founding a city> <if [Self-Portrait] is constructed in at least [1] of [in all cities] cities> <when between [1] and [1] [国家意志]> <hidden from users>",
+		"Gain [386] [Gold] <when number of [Cities] is equal to [21]> <upon founding a city> <if [Self-Portrait] is constructed in at least [1] of [in all cities] cities> <when between [1] and [1] [国家意志]> <hidden from users>",
+		"Gain [423] [Gold] <when number of [Cities] is equal to [22]> <upon founding a city> <if [Self-Portrait] is constructed in at least [1] of [in all cities] cities> <when between [1] and [1] [国家意志]> <hidden from users>",
+		"Gain [463] [Gold] <when number of [Cities] is equal to [23]> <upon founding a city> <if [Self-Portrait] is constructed in at least [1] of [in all cities] cities> <when between [1] and [1] [国家意志]> <hidden from users>",
+		"Gain [508] [Gold] <when number of [Cities] is equal to [24]> <upon founding a city> <if [Self-Portrait] is constructed in at least [1] of [in all cities] cities> <when between [1] and [1] [国家意志]> <hidden from users>",
+		"Gain [557] [Gold] <when number of [Cities] is more than [24]> <upon founding a city> <if [Self-Portrait] is constructed in at least [1] of [in all cities] cities> <when between [1] and [1] [国家意志]> <hidden from users>",
+		],
 		"cities": ["Amsterdam", "Rotterdam", "Utrecht", "Groningen", "Breda", "Nijmegen", "The Hague", "Haarlem", "Arnhem", "Zutphen", "Maastricht", "Tilburg", "Eindhoven", "Dordrecht", "Leiden", "'s Hertogenbosch", "Almere", "Alkmaar", "Brielle", "Vlissingen", "Apeldoorn", "Enschede", "Amersfoort", "Zwolle", "Venlo", "Uden", "Grave", "Delft", "Gouda", "Nieuwstadt", "Weesp", "Coevorden", "Kerkrade"],
         "spyNames": ["Joost", "Hendrika", "Marten", "Anke", "Guus", "Mr. X", "Dr. Grijs", "Willem", "Thijs", "Neef"]
     },
@@ -1024,12 +1042,12 @@
 		"uniques": ["Provides the cheapest [Faith] building in your first [2] cities for free",
 		"May choose [1] additional belief(s) of any type when [founding] a religion",
 		//阿历克赛一世·科穆宁能力
-		"[+1 Food] from every [{improved} {Luxury resource}] <in tiles adjacent to [City center] tiles> <when number of [Cities] is more than [3]> <when between [1] and [1] [国家意志]> <hidden from users>",
-		"[+1 Food] from every [{improved} {Strategic resource}] <in tiles adjacent to [City center] tiles> <when number of [Cities] is more than [3]> <when between [1] and [1] [国家意志]> <hidden from users>",
-		"[+1 Food] from every [{improved} {Bonus resource}] <in tiles adjacent to [City center] tiles> <when number of [Cities] is more than [3]> <when between [1] and [1] [国家意志]> <hidden from users>",
-		"[+1 Production] from every [{improved} {Luxury resource}] <in tiles adjacent to [City center] tiles> <when number of [Cities] is more than [6]> <when between [1] and [1] [国家意志]> <hidden from users>",
-		"[+1 Production] from every [{improved} {Strategic resource}] <in tiles adjacent to [City center] tiles> <when number of [Cities] is more than [6]> <when between [1] and [1] [国家意志]> <hidden from users>",
-		"[+1 Production] from every [{improved} {Bonus resource}] <in tiles adjacent to [City center] tiles> <when number of [Cities] is more than [6]> <when between [1] and [1] [国家意志]> <hidden from users>",
+		"[+1 Food] from every [{improved} {Luxury resource}] <when between [1] and [1] [国家意志]> <when number of [Cities] is more than [3]> <in tiles adjacent to [City center] tiles> <hidden from users>",
+		"[+1 Food] from every [{improved} {Strategic resource}] <when between [1] and [1] [国家意志]> <when number of [Cities] is more than [3]> <in tiles adjacent to [City center] tiles> <hidden from users>",
+		"[+1 Food] from every [{improved} {Bonus resource}] <when between [1] and [1] [国家意志]> <when number of [Cities] is more than [3]> <in tiles adjacent to [City center] tiles> <hidden from users>",
+		"[+1 Production] from every [{improved} {Luxury resource}] <when between [1] and [1] [国家意志]> <when number of [Cities] is more than [6]> <in tiles adjacent to [City center] tiles> <hidden from users>",
+		"[+1 Production] from every [{improved} {Strategic resource}] <when between [1] and [1] [国家意志]> <when number of [Cities] is more than [6]> <in tiles adjacent to [City center] tiles> <hidden from users>",
+		"[+1 Production] from every [{improved} {Bonus resource}] <when between [1] and [1] [国家意志]> <when number of [Cities] is more than [6]> <in tiles adjacent to [City center] tiles> <hidden from users>",
 		],
 
 		"cities": ["Constantinople", "Adrianople", "Nicaea", "Antioch", "Varna", "Ohrid", "Nicomedia", "Trebizond", "Cherson", "Sardica",
@@ -1102,7 +1120,12 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Spirit of Adwa",
-		"uniques": ["[+20]% Strength <when fighting units from a Civilization with more Cities than you>"],
+		"uniques": ["[+20]% Strength <when fighting units from a Civilization with more Cities than you>",
+		//门格斯图·海尔·马里亚姆能力
+		"[Military] units gain the [Receive Training] promotion <when between [1] and [1] [国家意志]> <hidden from users>",
+		"[+1] population in a random city <when number of [Cities] is more than [1]> <upon founding a city> <when between [1] and [1] [国家意志]> <hidden from users>",
+		"[+1] population in a random city <when number of [Cities] is more than [1]> <upon declaring war with a major Civilization> <when between [1] and [1] [国家意志]> <hidden from users>",
+		],
 		"cities": ["Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama",
 			"Mek'ele","Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Shashamane","Debre Zeyit","Sodo","Hosaena",
 			"Nekemte","Asella","Dila","Adigrat","Debre Markos","Kombolcha","Debre Tabor","Sebeta",
