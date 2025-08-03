@@ -114,7 +114,8 @@
 		"RGB": [0, 171, 169],
 		"uniques": ["Fresh water",
 					"Considered [Food] when determining start locations",
-					"Considered [Desirable] when determining start locations"],
+					"Considered [Desirable] when determining start locations",
+					],
         "civilopediaText": [
             {"text": "Lakes provide fresh water to adjacent tiles, allowing farming where it would otherwise not be possible (similar to Rivers and Oases)."},
             {"text": "Rivers", "link":"Terrain/River"},
@@ -167,6 +168,7 @@
 		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow"],
 		"uniques": ["Rough terrain",
 					//"[+5] Strength for cities built on this terrain",
+					"[+1 Production] <in tiles without [City center]> <in tiles adjacent to [Koerber Plan] tiles> <hidden from users>",
 					"Has an elevation of [1] for visibility calculations",
 					"Occurs in groups around high elevations",
 					"[+1] to Fertility for Map Generation",
