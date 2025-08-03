@@ -174,7 +174,8 @@
             {
                 "name": "South",//南部疆域
                 "uniques": [
-                    "[2] free [Chariot Archer] units appear",
+                    "Free [Chariot Archer] appears",
+                    "Free [Chariot Archer] appears <after discovering [The Wheel]>",
                     "[+33]% Production when constructing [Chariot Archer] units [in capital]",
                 ],
                 "requires": ["Political Center"],
@@ -184,8 +185,7 @@
             {
                 "name": "Architecture Cluster",//集群建筑
                 "uniques": [
-                    "[+4 Production] [in capital]",
-                    "[+10]% Production towards any buildings that already exist in the Capital"
+                    "[+4 Production] [in capital]"
                 ],
                 "requires": ["Political Center"],
                 "row": 2,
@@ -244,7 +244,7 @@
             {
                 "name": "Wishing Seeds",//希望之种
                 "uniques": [
-                    "Double quantity of [Horses] produced",
+                    "[+100]% [Horses] resource production"
                     "[+1 Culture] from every [Horses]",
                     "Heals [20] damage if it kills a unit <for [Mounted] units>"
                 ],
@@ -308,7 +308,7 @@
             {
                 "name": "God Names",//神的名义
                 "uniques": [
-                    "[+15]% Production when constructing [Land] units [in this city] <in cities with a [Shrine]>",
+                    "[+15]% Production when constructing [{Military} {Land}] units [in this city] <in cities with a [Shrine]>",
                     "[+5]% Strength <for [Wounded] units>"
                 ],
                 "row": 1,
@@ -317,9 +317,9 @@
             {
                 "name": "Devout Dream",//虔诚的梦
                 "uniques": [
-                    "[+5]% Strength <for [{Military} {Melee}] units> <when fighting in [Foreign Land] tiles>",
-                    "[+5]% Strength <for [{Military} {Melee}] units> <when fighting in [Enemy Land] tiles>",
-                    "[+5]% Strength <for [Military] units>"
+                    "[+5]% Strength <for [{Military} {Melee} {Land}] units> <when fighting in [Foreign Land] tiles>",
+                    "[+5]% Strength <for [{Military} {Melee} {Land}] units> <when fighting in [Enemy Land] tiles>",
+                    "[+5]% Strength <for [{Military} {Land}] units>"
                     "Earn [33]% of killed [All] unit's [Strength] as [Faith] <for [Melee] units>",
                     "Earn [33]% of killed [All] unit's [Strength] as [Culture] <for [Melee] units>",
                 ],
@@ -332,7 +332,7 @@
                 "uniques": [
                    "Gain a free [Shrine] [in capital] <after discovering [Pottery]>",
                    "Gain a free [Temple] [in capital] <after discovering [Philosophy]>",
-                   "[+5]% Strength <for [Military] units>"
+                   "[+5]% Strength <for [{Military} {Melee} {Land}] units>"
                 ],
                 "row": 1,
                 "column": 3
@@ -340,8 +340,8 @@
             {
                 "name": "Original Sin",//原罪论
                 "uniques": [
-                    "[+1 Faith] from every [Shrine] <before founding a Pantheon>",
-                    "[+1 Faith] from every [Temple] <before founding a Pantheon>",
+                    "[+1 Faith] from every [Shrine] <during the [Ancient era]>",
+                    "[+1 Faith] from every [Temple] <during the [Ancient era]>",
                     "[+1 Culture] from every [Shrine] <starting from the [Classical era]>",
                     "[+1 Culture] from every [Temple] <starting from the [Classical era]>"
                 ],
@@ -353,7 +353,9 @@
                 "uniques": [
                     "Free [Great Prophet] appears",
                     "Comment [+15% Strength bonus for Military units within 3 tiles of [Great Prophet]]",
-                    "[+5]% Strength <for [Military] units>",
+                    "[+5]% Strength <for [Military] units> <when below [75] HP>",
+                    "[+5]% Strength <for [Military] units> <when below [50] HP>",
+                    "[+5]% Strength <for [Military] units> <when below [25] HP>",
                     "[+5]% Strength <for [Military] units> <for [4] turns>",
                     "[+5]% Strength <for [Military] units> <for [8] turns>",
                     "[+5]% Strength <for [Military] units> <for [12] turns>",
@@ -808,7 +810,7 @@
             {
                 "name": "Fascism",
                 "uniques": [
-                    "Quantity of strategic resources produced by the empire +[100]%",
+                    "[+100]% [Strategic] resource production",
                     "[+2] Movement <for [Great General] units>"
                 ],
                 "requires": ["Populism", "Militarism"],
@@ -890,7 +892,7 @@
                 "name": "Socialism",
                 "requires": ["Planned Economy"],
                 "uniques": [
-                    "[-15]% maintenance cost for buildings [in all cities]"
+                    "[-15]% maintenance cost for [all] buildings [in all cities]"
                 ],
                 "row": 2,
                 "column": 3
