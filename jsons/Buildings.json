@@ -14,6 +14,16 @@
 		"uniques": ["Indicates the capital city"]
 	},
 	{
+		"name": "Oriental Pearl TV Tower",
+		"replaces": "幼观",
+		"uniqueTo": "Songhai",
+	    "cost": 25,
+		"uniques": ["[+1 Faith, +1 Production] [in this city] <during the [Ancient era]>",
+		"[+1 Faith, +1 Production] [in this city] <for every [1] [Cities]> <starting from the [Classical era]>",
+		"Limited to [1] per Civilization"
+		]
+	},
+	{
 		"name": "Monument",
 		"culture": 2,
 		"cost": 40,
@@ -32,6 +42,17 @@
 		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured"] //"Only available <when religion is enabled>"
 	},
+	{
+		"name": "Cemetery",
+		"uniqueTo": "England",
+		"culture": 2,
+		"cost": 75,
+		"maintenance": 2,
+		"requiredTech": "Calendar",
+		"uniques": ["Comment [+2 [Culture] after having fought at least one war and when not at war]",
+		"Destroyed when the city is captured",
+		"[+2 Culture] <when not at war> <when above [0] [战争时节计数器]> <hidden from users>"]
+	},
 	// Column 1
 	{
 		"name": "Granary",
@@ -41,6 +62,19 @@
 		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
 			"[+1 Food] from [Bananas] tiles [in this city]",
 			"[+1 Food] from [Wheat] tiles [in this city]"],
+		"requiredTech": "Pottery"
+	},
+	{
+		"name": "Imperial Bridge",
+		"replaces": "Granary",
+		"uniqueTo": "The Ottomans",
+		"food": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]",
+			"[+1 Food] [in all cities]"],
 		"requiredTech": "Pottery"
 	},
 	{
@@ -71,6 +105,90 @@
             "[+15]% Production when constructing [Ranged Gunpowder] units [in this city]"],
 		"requiredTech": "Archery",
 		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
+	},
+	{
+		"name": "The Great Lingangu",
+		"cost": 165,
+		"culture": 1,
+		"happiness": 3,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+        "uniques": ["Comment [[Gold] cost of purchasing All buildings will random every turn]",
+        "[Gold] cost of purchasing [All] buildings [+3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [+3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [+3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [+3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [+3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [+3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [+3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [+3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [+3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [+3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [+3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [+3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [+3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [+3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [+3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [+3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [+3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [+3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [+3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [+3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [+3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [+3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [+3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [+3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [+3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [+3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [+3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [+3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [+3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [+3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [-3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [-3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [-3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [-3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [-3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [-3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [-3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [-3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [-3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [-3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [-3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [-3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [-3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [-3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [-3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [-3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [-3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [-3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [-3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [-3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [-3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [-3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [-3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [-3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [-3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [-3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [-3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [-3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [-3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        "[Gold] cost of purchasing [All] buildings [-3]% <with [5]% chance> <every [1] turns> <hidden from users>",
+        ],
+		"requiredTech": "Animal Husbandry",
+		"quote": "'It's okay to be lost—let's move forward even while lost.' - Takamatsu Tomori"
+	},
+	{
+		"name": "Newgrange",
+		"culture": 1,
+		"food": 2,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+        "uniques": ["[+1 Food] from [Stone] tiles [in this city]",
+        "[+1 Food] from [Marble] tiles [in this city]",
+        "[+1 Gold] from [Quarry] tiles [in this city]"],
+		"requiredTech": "Mining",
+		"quote": "'Sad and joyful the dawn, full of sorrow and of pity.' - Luis de Camoes"
 	},
 	// Column 2
 	{
@@ -136,6 +254,19 @@
 		"requiredTech": "The Wheel"
 	},
 	{
+		"name": "Gemstone Workshop",
+		"replaces": "Water Mill",
+		"uniqueTo": "Austria",
+		"requiredNearbyImprovedResources": ["Gold Ore", "Silver","Gems"],
+		"maintenance": 2,
+		"gold": 2,
+		"food": 2,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Provides [1] [Agate Relief]"],
+		"requiredTech": "The Wheel"
+	},
+	{
 		"name": "Floating Gardens",
 		"replaces": "Water Mill",
 		"uniqueTo": "Aztecs",
@@ -155,7 +286,36 @@
 		"requiredTech": "Masonry",
 		"uniques": ["Destroyed when the city is captured",
 		"Must be on [Open terrain] <on [Half Standard] game speed>",
-		"Unbuildable <on [Half Quick] game speed>"
+		"Must be on [Open terrain] <on [Half Quick] game speed>"
+		]
+	},
+	{
+		"name": "Sanseong",
+		"replaces": "Walls",
+		"uniqueTo": "Korea",
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"uniques": ["Destroyed when the city is captured",
+		"Must be on [Open terrain] <on [Half Standard] game speed>",
+		"Must be on [Open terrain] <on [Half Quick] game speed>",
+		"Gain a free [Barbican] [in this city] <in tiles adjacent to [Mountain] tiles>",
+		"Gain a free [Hollow Watchtower] [in this city] <in [Open terrain] tiles>",
+		]
+	},
+	{
+		"name": "Barbican",
+		"cityHealth": 50,
+		"uniques": ["Destroyed when the city is captured",
+		"Unbuildable"
+		]
+	},
+	{
+		"name": "Hollow Watchtower",
+		"cityStrength": 2,
+		"uniques": ["Destroyed when the city is captured",
+		"Unbuildable"
 		]
 	},
 	{
@@ -169,7 +329,7 @@
 		"requiredTech": "Masonry",
 		"uniques": ["Destroyed when the city is captured",
 		"Must be on [Open terrain] <on [Half Standard] game speed>",
-		"Unbuildable <on [Half Quick] game speed>"]
+		"Must be on [Open terrain] <on [Half Quick] game speed>"]
 	},
 	{
 		"name": "The Pyramids",
@@ -243,6 +403,18 @@
 		"quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
 	},
 	{
+		"name": "Abbey and Fortifications",
+		"cityHealth": 150,
+		"culture": 1,
+		"greatPersonPoints": {"Great Artist": 1},
+		"isWonder": true,
+		"uniques": ["Must be on [Hill]",
+		"[+1 Faith] from [Hill] tiles [in this city]",
+		],
+		"requiredTech": "Mathematics",
+		"quote": "'Life itself is the most wonderful fairy tale. Full of the hardships of wandering and the twists of relentless pursuit, my existence has known no abiding home, my soul no resting place—fairy tales are the Aladdin's lamp of my lifelong pilgrimage.' - Hans Christian Andersen"
+	},
+	{
 		"name": "Stable",
 		"maintenance": 1,
 		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
@@ -266,10 +438,46 @@
 		"name": "Courthouse",
 		"maintenance": 4,
 		"hurryCostModifier": 50,
-		"uniques": ["Remove extra unhappiness from annexed cities",
-			"Can only be built <in [Annexed] cities>"],
+		"uniques": ["Removes extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>"
+			],
 		"requiredTech": "Mathematics"
 	},
+	/*{
+		"name": "Trial Chamber",
+		"replaces": "Courthouse",
+		"uniqueTo": "Germany",
+		"maintenance": 0,
+		"hurryCostModifier": 50,
+		"uniques": ["Removes extra unhappiness from annexed cities",
+			//"Can only be built <in [Annexed] cities>",
+			"Comment [Inquisition Project can be conducted in this city]",
+			"Unsellable"
+			],
+		"requiredTech": "Mathematics"
+	},
+	{
+		"name": "Inquisition",
+		"cost": 10,
+		"uniques": [
+		    "Unsellable",
+		    "[-1] population [in this city] <hidden from users>",
+		    "Only available <in cities with a [Trial Chamber]>",
+		    "Comment [When conducting Inquisition:\n- If failed: -1 population in this city\n- If successful: -15% Unhappiness from Population in this city]",
+		    "Gain a free [Inquisition Succeed] [in this city] <with [50]% chance> <hidden from users>"
+			],
+	},
+	{
+		"name": "Inquisition Succeed",
+		"cost": 0,
+		"uniques": [
+		    "[+1] population [in this city] <hidden from users>",
+		    "Unbuildable",
+		    "Unsellable",
+		    "Comment [Succeed]",
+		    "[-15]% Unhappiness from [Population] [in this city]"
+			],
+	},*/
 	{
 		"name": "Hanging Gardens",
 		"greatPersonPoints": {"Great Artist": 1},
@@ -285,6 +493,20 @@
 		"maintenance": 1,
 		"happiness": 2,
 		"hurryCostModifier": 25,
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Tzompantli",
+		"replaces": "Colosseum",
+		"uniqueTo": "Aztecs",
+		"cityStrength": 2,
+		"cityHealth": 50,
+		"maintenance": 1,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Comment [Gain 3 [Culture] for All units upon defeating a Barbarian unit]",
+		"Comment [Instantly gain 5 [Golden Age points] for All units upon defeating a Barbarian unit]",
+		"Provides [1] [UB1] <hidden from users>"]
 		"requiredTech": "Construction"
 	},
 	{
@@ -306,6 +528,18 @@
 		"uniques": ["Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},
 	{
+		"name": "Arab Mosque",
+		"replaces": "Temple",
+		"uniqueTo": "Arabia",
+		"faith": 2,
+		"requiredBuilding": "Shrine",
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": ["Only available <when religion is enabled>", "Destroyed when the city is captured",
+		"[-33]% maintenance cost for [All] buildings [in this city] <after founding a religion>"]
+	},
+	{
 		"name": "Burial Tomb",
 		"replaces": "Temple",
 		"uniqueTo": "Egypt",
@@ -317,7 +551,7 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy"
 	},
-	{
+	/*{
 		"name": "Mud Pyramid Mosque",
 		"replaces": "Temple",
 		"uniqueTo": "Songhai",
@@ -327,7 +561,7 @@
 		"faith": 2,
 		"requiredBuilding": "Shrine",
 		"requiredTech": "Philosophy"
-	},
+	},*/
 	{
 		"name": "National College",
 		"cost": 125,
@@ -362,7 +596,7 @@
 		"cost": 125,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city"],
+		"uniques": ["Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", "[+25]% Great Person generation [in all cities]", "Free Great Person", "Cost increases by [30] per owned city"],
 		"requiredTech": "Drama and Poetry"
 	},
 	{
@@ -603,7 +837,7 @@
 	},
 	{
 		"name": "Mughal Fort",
-		"cost": 150,
+		"cost": 80,
 		"replaces": "Castle",
 		"uniqueTo": "India",
 		"cityStrength": 7,
@@ -1131,6 +1365,15 @@
         "requiredTech": "Computers",
         "quote": "'Distrust and caution are the parents of security.' - Benjamin Franklin"
     },
+    {
+        "name": "Kosmajskog Odreda",
+        "culture": 3,
+        "isWonder": true,
+        "uniques": ["All newly-trained [non-[Air]] units [in this city] receive the [Volition of Guerrilla] promotion"
+            ],
+        "requiredTech": "Radar",
+        "quote": "'The will of the partisans is the foundation of Yugoslavia's freedom; their sacrifice forged the soul of the nation.' - Josip Broz Tito"
+    },
 
 	// Information Era
 
@@ -1243,7 +1486,7 @@
 		"maintenance": 1,
 		"requiredTech": "Calendar",
 		"uniques": ["[+1 Production] <in cities with at least [4] [Population]>",
-		"[+1 Production] <in cities with at least [7] [Population]>"
+		"[+1 Production] <in cities with at least [7] [Population]>",
 		]
 	},
 	{
@@ -1295,6 +1538,33 @@
 		]
 	},
 	{
+		"name": "爱丽丝的棺材",
+	    "cost": 1,
+		"uniques": ["Unbuildable <hidden from users>",
+		"Unsellable <hidden from users>",
+		"Comment [死掉了]"
+		]
+	},
+	{
+		"name": "Lake Miracle",
+		"uniqueTo": "Egypt",
+		"food": 1,
+		"cost": 0,
+		"uniques": ["Unbuildable",
+		"Comment [May appear in all cities starting from the Medieval era]",
+		"[+1 Food] from [{Desert} {Fresh Water}] tiles [in this city]"
+		]
+	},
+	{
+		"name": "Defend Moscow",
+		"cityStrength": 10,
+		"cityHealth": 200,
+	    "cost": 1,
+		"uniques": ["Unbuildable",
+		"Unsellable",
+		]
+	},
+	{
 		"name": "State Hotel",
 	    "cost": 1,
 	    "maintenance": 2,
@@ -1307,6 +1577,17 @@
 		"[+2 Happiness] <starting from the [Classical era]>",
 		"[+1 Science] <starting from the [Classical era]>"
 		]
+	},
+	{
+		"name": "State Bond",
+		"cost": 75,
+		"requiredTech": "Mathematics",
+		"uniqueTo": "Germany",
+		"uniques": [
+		"Gain [500] [Gold] <(modified by game speed)>",
+		"[-15 Gold] [in this city] <(modified by game speed)>",
+		"Unsellable",
+		"Destroyed when the city is captured"]
 	},
 	{
 		"name": "Protect",//庇佑
@@ -1329,7 +1610,7 @@
 	{
 		"name": "Barrier",//屏障
 	    "cost": 1,
-	    "cityStrength": 2,
+	    "cityStrength": 3,
 		"uniques": ["Unbuildable",
 		"Unsellable",
 		"Never destroyed when the city is captured"
@@ -1339,7 +1620,7 @@
 		"name": "Park Chung-Hee",//朴正熙
 	    "cost": 0,
 	    "uniqueTo": "Korea",
-	    "replacementTextForUniques": "[Leader Ability【Miracle on the Han River】]\n[[+3 Gold] from every specialist [in capital]]\n[[Great Merchant] can speed up construction of a building]\n[Gain 300 [Gold] upon expending a [Great Merchant] unit] [(modified by game speed)]"
+	    "replacementTextForUniques": "[Leader Ability【Miracle on the Han River】]\n[[+3 Gold] from every specialist [in capital]]\n[[Great Merchant] can speed up construction of a building]\n[Gain 800 [Gold] upon expending a [Great Merchant] unit] [(modified by game speed)]"
 		"uniques": [
 		"Instantly provides [1] [国家意志]",
 		"Only available <when between [0] and [0] [国家意志]>",
@@ -1409,6 +1690,50 @@
 		"Unbuildable",
 		"Unsellable",
 		"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Self-Portrait",//自画像
+		"maintenance": 1,
+	    "cost": 0,
+		"uniques": [
+		"Unbuildable",
+		"Unsellable",
+		"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Remove Self-Portrait",//移除自画像
+	    "cost": 20,
+		"uniques": [
+		"Only available <if [Self-Portrait] is constructed>",
+		"Remove [Self-Portrait] [in this city]",
+		"Remove [Remove Self-Portrait] [in this city] <hidden from users>",
+		"Gain [134] [Gold] <when number of [Cities] is equal to [1]> <hidden from users>",
+		"Gain [145] [Gold] <when number of [Cities] is equal to [2]> <hidden from users>",
+		"Gain [157] [Gold] <when number of [Cities] is equal to [3]> <hidden from users>",
+		"Gain [171] [Gold] <when number of [Cities] is equal to [4]> <hidden from users>",
+		"Gain [188] [Gold] <when number of [Cities] is equal to [5]> <hidden from users>",
+		"Gain [208] [Gold] <when number of [Cities] is equal to [6]> <hidden from users>",
+		"Gain [231] [Gold] <when number of [Cities] is equal to [7]> <hidden from users>",
+		"Gain [259] [Gold] <when number of [Cities] is equal to [8]> <hidden from users>",
+		"Gain [291] [Gold] <when number of [Cities] is equal to [9]> <hidden from users>",
+		"Gain [329] [Gold] <when number of [Cities] is equal to [10]> <hidden from users>",
+		"Gain [374] [Gold] <when number of [Cities] is equal to [11]> <hidden from users>",
+		"Gain [427] [Gold] <when number of [Cities] is equal to [12]> <hidden from users>",
+		"Gain [489] [Gold] <when number of [Cities] is equal to [13]> <hidden from users>",
+		"Gain [562] [Gold] <when number of [Cities] is equal to [14]> <hidden from users>",
+		"Gain [648] [Gold] <when number of [Cities] is equal to [15]> <hidden from users>",
+		"Gain [749] [Gold] <when number of [Cities] is equal to [16]> <hidden from users>",
+		"Gain [868] [Gold] <when number of [Cities] is equal to [17]> <hidden from users>",
+		"Gain [1008] [Gold] <when number of [Cities] is equal to [18]> <hidden from users>",
+		"Gain [1172] [Gold] <when number of [Cities] is equal to [19]> <hidden from users>",
+		"Gain [1366] [Gold] <when number of [Cities] is equal to [20]> <hidden from users>",
+		"Gain [1593] [Gold] <when number of [Cities] is equal to [21]> <hidden from users>",
+		"Gain [1861] [Gold] <when number of [Cities] is equal to [22]> <hidden from users>",
+		"Gain [2176] [Gold] <when number of [Cities] is equal to [23]> <hidden from users>",
+		"Gain [2546] [Gold] <when number of [Cities] is equal to [24]> <hidden from users>",
+		"Gain [2982] [Gold] <when number of [Cities] is more than [24]> <hidden from users>",
 		]
 	},
 	{
@@ -1518,7 +1843,7 @@
 		"name": "Paul Viritio",//保罗·维利里奥
 	    "cost": 0,
 	    "uniqueTo": "France",
-	    "replacementTextForUniques": "[Leader Ability【The Vision Machine】]\n[All units heals 10 HP when Prime-numbered turns begin]\n[Gain a free [Stebernadette] in capital when turn number 150 begin]\n[Cities gain +2ⁿ% non-Happiness yields from population growth for All civilizations and +n² Movement for your All units when turn number 151 begin and if [Stebernadette] is constructed (n is numerically equivalent to turns since 150) Ends at turn number 181 and Triggers a Acceleration Victory by constructing a [New World] (This effect has no effect when Acceleration Victory is disabled)]"
+	    "replacementTextForUniques": "[Leader Ability【The Vision Machine】]\n[All units heals 10 HP when Prime-numbered turns begin]\n[Gain a free [Stebernadette] in capital when turn number 150 begin]\n[Cities gain +(2^n)% non-Happiness yields from population growth for All civilizations and +n^2 Movement for your All units when turn number 151 begin and if [Stebernadette] is constructed (n is numerically equivalent to turns since 150) Ends at turn number 181 and Triggers a Acceleration Victory by constructing a [New World] (This effect has no effect when Acceleration Victory is disabled)]"
 		"uniques": [
 		"Instantly provides [1] [国家意志]",
 		"Only available <when between [0] and [0] [国家意志]>",
@@ -1557,6 +1882,74 @@
 		"Only available <when between [0] and [0] [国家意志]>",
 		"Remove [Moctezuma II] [in this city]",
 		"Instantly provides [3] [CR1]",
+		]
+	},
+	{
+		"name": "Mengistu Haile Mariam",//门格斯图·海尔·马里亚姆
+	    "cost": 0,
+	    "uniqueTo": "Ethiopia",
+	    "replacementTextForUniques": "[Leader Ability【The Indifferent Holy Spirit】]\n[Military units gain the [Receive Training] promotion]\n[+1 population in a random city upon founding a city when at least 2 Cities]\n[+1 population in a random city upon declaring war with a major Civilization when at least 2 Cities]"
+		"uniques": [
+		"Instantly provides [1] [国家意志]",
+		"Only available <when between [0] and [0] [国家意志]>",
+		"Remove [Mengistu Haile Mariam] [in this city]",
+		]
+	},
+	{
+		"name": "Franz Joseph I",//弗兰茨·约瑟夫一世
+	    "cost": 0,
+	    "uniqueTo": "Austria",
+	    "replacementTextForUniques": "[Leader Ability【The Emperor of Sunset】]\n[Creates a [Koerber Plan] improvement on a specific tile]\n[+25% Strength for All units when defending in or adjacent [Fort] tiles]\n[+50% Strength for All units when defending in or adjacent [Citadel] tiles]"
+		"uniques": [
+		"Instantly provides [1] [国家意志]",
+		"Only available <when between [0] and [0] [国家意志]>",
+		"Remove [Franz Joseph I] [in this city]",
+		"Creates a [Koerber Plan] improvement on a specific tile",
+		]
+	},
+	{
+		"name": "Mustafa Kemal Atatürk",//穆斯塔法·凯末尔·阿塔图尔克
+	    "cost": 0,
+	    "uniqueTo": "The Ottomans",
+	    "replacementTextForUniques": "[Leader Ability【National Crisis】]\n[Ensures a minimum tile yield of +1 [Food], +2 [Production] for [Mine] tiles]\n[Can be built outside your borders for [Mine] tiles]\n[+15% Strength for All units when defending in [Mine] tiles]"
+		"uniques": [
+		"Instantly provides [1] [国家意志]",
+		"Only available <when between [0] and [0] [国家意志]>",
+		"Remove [Mustafa Kemal Atatürk] [in this city]",
+		]
+	},
+	{
+		"name": "Kamehameha I",//卡美哈梅哈一世
+	    "cost": 0,
+	    "uniqueTo": "Polynesia",
+	    "replacementTextForUniques": "[Leader Ability【The Person who Stayed Behind】]\n[[Settler] units can transform to [The Center of the World] (Founds a new puppet city)]\n[+100% Production when constructing [Maori Warrior] units in puppeted cities]\n[-10% production cost for [Maori Warrior] units from each puppeted cities (Max 50%)]"
+		"uniques": [
+		"Instantly provides [1] [国家意志]",
+		"Only available <when between [0] and [0] [国家意志]>",
+		"Remove [Kamehameha I] [in this city]",
+		]
+	},
+	{
+		"name": "Hamlet",//哈姆雷特
+	    "cost": 0,
+	    "uniqueTo": "Denmark",
+	    "replacementTextForUniques": "[Leader Ability【To Be or Not To Be】]\n[All units gains the [Revenge] promotion by requires 1 movement for 1 turn(s)]\n[All units gains the [Poisoned Cup] promotion by requires 1 movement for 3 turn(s)]\n[Transfer Movement to Civilian for Mounted units]"
+		"uniques": [
+		"Instantly provides [1] [国家意志]",
+		"Only available <when between [0] and [0] [国家意志]>",
+		"Remove [Hamlet] [in this city]",
+		]
+	},
+	{
+		"name": "Vincent Willem van Gogh",//文森特·威廉·梵高
+	    "cost": 0,
+	    "uniqueTo": "The Netherlands",
+	    "replacementTextForUniques": "[Leader Ability【The Bridges at Asnieres】]\n[Gain a free [Self-Portrait] in capital]\n[[Self-Portrait] can be removed in the capital to gain 75+(50*(85)%^(−n)) [Gold] (n is the number of cities)]\n[Gain 15+(50*((110)%^n)) [Gold] upon founding a city if [Self-Portrait] is constructed and not been destroyed (n is the number of cities)]"
+		"uniques": [
+		"Instantly provides [1] [国家意志]",
+		"Only available <when between [0] and [0] [国家意志]>",
+		"Remove [Vincent Willem van Gogh] [in this city]",
+		"Gain a free [Self-Portrait] [in capital]"
 		]
 	},
 ]
