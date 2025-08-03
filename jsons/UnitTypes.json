@@ -1,40 +1,58 @@
 [
     {
         "name": "Civilian",
-        "movementType": "Land"
+        "movementType": "Land",
+ 
     },
     {
         "name": "Sword",
-        "movementType": "Land"
+        "movementType": "Land",
+ 
+    },
+    {
+        "name": "Alice",
+        "movementType": "Land",
+ 
     },
     {
         "name": "Gunpowder",
         "movementType": "Land",
-        "uniques": ["Founds a new city <for [America] Civilizations> <when between [1] and [1] [国家意志]> <in tiles adjacent to [Barbarian encampment] tiles> <hidden from users>"]
+        "uniques": ["Founds a new city <for [America] Civilizations> <when between [1] and [1] [国家意志]> <in tiles adjacent to [Barbarian encampment] tiles> <hidden from users>"
+         ]
     },
     {
         "name": "Archery",
-        "movementType": "Land"
+        "movementType": "Land",
+ 
     },
     {
         "name": "Ranged Gunpowder",
-        "movementType": "Land"
+        "movementType": "Land",
+ 
     },
     {
         "name": "Scout",
-        "movementType": "Land"
+        "movementType": "Land",
+ 
     },
     {
         "name": "Mounted",
-        "movementType": "Land"
+        "movementType": "Land",
+        "uniques": ["Transfer Movement to [Civilian] <when between [1] and [1] [国家意志]> <for [Denmark] Civilizations> <hidden from users>"
+         ]
     },
     {
         "name": "Armored",
-        "movementType": "Land"
+        "movementType": "Land",
+    },
+    {
+        "name": "Ranged Armored",
+        "movementType": "Land",
     },
     {
         "name": "Siege",
-        "movementType": "Land"
+        "movementType": "Land",
+ 
     },
     {
         "name": "Civilian Water",
@@ -95,7 +113,7 @@
     },
     {
         "name": "Armor",
-        "movementType": "Land"
+        "movementType": "Land",
     },
     {
         "name": "WaterCivilian",
