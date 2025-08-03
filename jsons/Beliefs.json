@@ -900,7 +900,7 @@
         "name": "停风",
         "type": "Follower",
         "uniques": ["Free Social Policy",
-        "Comment [所有单位持续1回合无法移动]"]
+        "[Gold] cost of purchasing [All] buildings [+20]%"]
     },
     {
         "name": "高速运转的机器",
@@ -922,12 +922,12 @@
         "name": "无端杀戮",
         "type": "Follower",
         "uniques": ["[+10]% Production when constructing [Military] units [in cities following this religion]",
-        "[+10]% Production when constructing [Military] units [in cities following this religion] <when below [0] Happiness>",]
+        "[+10]% Production when constructing [Military] units [in cities following this religion] <when below [0] [Happiness]>",]
     },
     {
         "name": "咕咕嘎嘎",
         "type": "Follower",
-        "uniques": ["[+50]% Yield from every [Quarry] <in tiles adjacent to [City center] tiles>"]
+        "uniques": ["[+50]% Yield from every [Quarry]"]
     },
     {
         "name": "借一块钱",
@@ -938,6 +938,149 @@
         "name": "白色大衣",
         "type": "Follower",
         "uniques": ["[+1 Faith] [in capital] <for every [1] [[Scout] Units]>"]
+    },
+    {
+        "name": "别样的碰碰车大战",
+        "type": "Follower",
+        "uniques": [
+        "Comment [令装甲单位防御时对战拥有[Ambush I]的单位战斗力+33%]",
+        "Comment [令装甲单位防御时对战拥有[Ambush II]的单位战斗力+33%]",
+        "Comment [令装甲单位攻击时交战时战斗力+20%]"  ]
+    },
+    {
+        "name": "团队作战",
+        "type": "Follower",
+        "uniques": [
+        "Comment [令远程单位与近战单位相邻时攻击时战斗力+25%]"]
+    },
+    {
+        "name": "惨案",
+        "type": "Follower",
+        "uniques": [
+        "[+1] population [in all cities] <when number of [Cities] is more than [5]>",
+        "[+1] population in a random city",
+        "[-1] population in a random city",
+        "[+1] population in a random city",
+        "[-1] population in a random city",
+        "[+1] population in a random city",
+        "[-1] population in a random city",
+        "[+1] population in a random city",
+        "[-1] population in a random city",
+        "[+1] population in a random city",
+        "[-1] population in a random city",
+        "[+1] population in a random city",
+        "[-1] population in a random city",
+        "[+1] population in a random city",
+        "[-1] population in a random city",
+        "[+1] population in a random city",
+        "[-1] population in a random city",
+        "[+1] population in a random city",
+        "[-1] population in a random city",
+        "[+1] population in a random city",
+        "[-1] population in a random city"
+        ]
+    },
+    {
+        "name": "高贵",
+        "type": "Follower",
+        "uniques": [
+        "Gain [500] [Gold] <if [The Great Library] is constructed in at least [1] of [in all cities] cities>"]
+    },
+    {
+        "name": "黄色集体",
+        "type": "Follower",
+        "uniques": [
+        "Free [Great Merchant] appears",
+        "Free Great Person <during the [Medieval era]>"]
+    },
+    {
+        "name": "回调大军事家",
+        "type": "Follower",
+        "uniques": [
+        "Free [Great General] appears <for [Persia] Civilizations> <hidden from users>",
+        "Comment [如果当前文明为[Persia]免费的[Great General]出现]",
+        "Comment [黄金时代长度+25%]"
+        ]
+    },
+    {
+        "name": "枯朽枝条",
+        "type": "Follower",
+        "uniques": [
+        "Comment [对[Remove Forest]地块改良-100%的建造时间]",
+        "Comment [对[Remove Jungle]地块改良-100%的建造时间]",
+        "Comment [对[Remove Marsh]地块改良-100%的建造时间]"
+        ]
+    },
+    {
+        "name": "重盾",
+        "type": "Follower",
+        "uniques": [
+        "Comment [令拥有[Cover II]的单位获得7伤害吸收]"]
+    },
+    {
+        "name": "偏差认知",
+        "type": "Follower",
+        "uniques": [
+        "Instantly provides [11] [集中] <hidden from users>",
+        "Comment [立即提供11集中（每点集中为你的所有城市提供1[Production]）]",
+        "Comment [回合开始时消耗1集中]"]
+    },
+    {
+        "name": "拉锯战",
+        "type": "Follower",
+        "uniques": ["All newly-trained [{Military} {Melee}] units [in cities following this religion] receive the [拉锯战] promotion"]
+    },
+    {
+        "name": "要塞化",
+        "type": "Follower",
+        "uniques": ["Comment [[Citadel]获得以自身为中心2格半径的地块]"]
+    },
+    {
+        "name": "轮椅",
+        "type": "Follower",
+        "uniques": ["Comment [令骑乘单位移动力+2]",
+        "Comment [令装甲单位移动力+2]"]
+    },
+    {
+        "name": "军事化集体",
+        "type": "Follower",
+        "uniques": ["Free [Musketman] appears <upon discovering [Gunpowder] technology>",
+        "[+25]% Production when constructing [Musketman] units [in cities following this religion]",]
+    },
+    {
+        "name": "什么都不知道",
+        "type": "Follower",
+        "uniques": ["Gain [500] [Gold] <upon declaring friendship> <(modified by game progress up to [200]%)>",
+        "Comment [令所有单位一旦宣布友谊宣言持续5回合视野-1]"]
+    },
+    {
+        "name": "中了一箭",
+        "type": "Follower",
+        "uniques": ["Comment [[Great General]不再提供战斗力加成]",
+        "Comment [可以通过消耗[Great General]获得免费的[Great Artist]]",
+        "Comment [消耗[Great General]单位时获得50[Gold]]"]
+    },
+    {
+        "name": "充电宝",
+        "type": "Follower",
+        "uniques": ["Provides [1] [Uranium] <for every [1] [[Giant Death Robot] Units]>"]
+    },
+    {
+        "name": "神金",
+        "type": "Follower",
+        "uniques": ["[+8 Gold] from every [Gold Ore]"]
+    },
+    {
+        "name": "爱丽丝爱丽丝爱丽丝",
+        "type": "Follower",
+        "uniques": ["Comment [免费的[Alice]出现，她很可爱]",
+        "Free [Alice] appears <hidden from users>"]
+    },
+    {
+        "name": "保卫莫斯科",
+        "type": "Follower",
+        "uniques": ["Comment [如果当前文明为[Germany]首都获得一座免费的[Defend Moscow]]",
+        "Gain a free [Defend Moscow] [in capital] <for [Persia] Civilizations> <hidden from users>"]
     },
 ///////////////////////////////////////// Founder beliefs //////////////////////////////////////////
 
