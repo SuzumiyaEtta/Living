@@ -3,7 +3,7 @@
 	{
 		"name": "Heal Instantly",
 		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Ranged Armored","Armored","Melee Water","Ranged Water","Submarine"],
 		"innerColor": [195,53,43],
 		"outerColor": [253,236,234],
         "row": 0,
@@ -14,7 +14,7 @@
 	{
 		"name": "Accuracy I",
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-90]% weight to this choice for AI decisions"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Ranged Armored"],
         "column": 1,
         "row": 1
     },
@@ -22,7 +22,7 @@
 		"name": "Accuracy II",
 		"prerequisites": ["Accuracy I"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Ranged Armored"],
         "column": 1,
         "row": 2
     },
@@ -30,7 +30,7 @@
 		"name": "Accuracy III",
 		"prerequisites": ["Accuracy II"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Ranged Armored"],
         "column": 1,
         "row": 3
     },
@@ -38,7 +38,7 @@
 	{
 		"name": "Barrage I",
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>", "[-90]% weight to this choice for AI decisions"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Ranged Armored"],
         "column": 2,
         "row": 1
 	},
@@ -46,7 +46,7 @@
 		"name": "Barrage II",
 		"prerequisites": ["Barrage I"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Ranged Armored"],
         "column": 2,
         "row": 2
 	},
@@ -54,7 +54,7 @@
 		"name": "Barrage III",
 		"prerequisites": ["Barrage II"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Ranged Armored"],
         "column": 2,
         "row": 3
 	},
@@ -71,7 +71,7 @@
 		"name": "Extended Range",
 		"prerequisites": ["Accuracy III","Barrage III","Targeting II","Bombardment II", "Wolfpack II"],
 		"uniques": ["[+1] Range"],
-		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water","Submarine"],
+		"unitTypes": ["Archery","Ranged Gunpowder","Ranged Armored","Siege","Ranged Water","Submarine"],
         "column": 3,
         "row": 3
 	},
@@ -79,7 +79,7 @@
 		"name": "Indirect Fire",
 		"prerequisites": ["Accuracy III", "Barrage III", "Bombardment II", "Targeting II"],
 		"uniques": ["Ranged attacks may be performed over obstacles"],
-		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water"],
+		"unitTypes": ["Archery","Ranged Gunpowder","Ranged Armored","Siege","Ranged Water"],
         "column": 3,
         "row": 4
 	},
@@ -578,7 +578,7 @@
 	{
 		"name": "Cover I",
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>", "[-90]% weight to this choice for AI decisions"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Ranged Armored","Siege"],
         "column": 24,
         "row": 1
 	},
@@ -586,7 +586,7 @@
 		"name": "Cover II",
 		"prerequisites": ["Cover I"],
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Ranged Armored","Siege"],
         "column": 24,
         "row": 2
 	},
@@ -595,7 +595,7 @@
 		"name": "March",
 		"prerequisites": ["Accuracy II","Barrage II","Shock III","Drill III"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege","Mounted"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Ranged Armored","Siege","Mounted"],
         "column": 10,
         "row": 3
 	},
@@ -621,7 +621,7 @@
 		"prerequisites": ["Accuracy III","Barrage III","Targeting III", "Wolfpack III",
 			"Bombardment III", "Coastal Raider III","Boarding Party III","Siege III", "Mobility II", "Anti-Armor II"],
 		"uniques": ["[1] additional attacks per turn", "Can move after attacking"],
-		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Melee Water","Ranged Water","Submarine","Fighter","Bomber","Helicopter"],
+		"unitTypes": ["Archery","Ranged Gunpowder","Ranged Armored","Siege","Melee Water","Ranged Water","Submarine","Fighter","Bomber","Helicopter"],
         "column": 24,
         "row": 5
 	},
@@ -674,6 +674,11 @@
 		"uniques": ["[+15]% Strength"]
 	},
 	{
+		"name": "Volition of Guerrilla",
+		"uniques": ["[+15]% Strength",
+		"[+15]% Strength <when fighting units from a Civilization with more Cities than you>"]
+	},
+	{
 		"name": "Great Generals I", // only for Companion Cavalry, Keshik and their subsequent upgrades
 		"uniques": ["[Great General] is earned [50]% faster"]
 	},
@@ -687,7 +692,7 @@
 	},
 	{
 		"name": "Haka War Dance", // only for Maori Warrior and subsequent upgrades
-		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles"]
+		"uniques": ["[-15]% Strength for enemy [Military] units in adjacent [All] tiles"]
 	},
 	{
 		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
@@ -727,7 +732,8 @@
 	},
 	{
 		"name": "[Conquistador] ability",
-		"uniques": ["[+100]% Strength <when defending> <when [Embarked]>"]
+		"uniques": ["[+2] Sight"
+		"Double movement in [Land] <on foreign continents>"]
 	},
 	{
 		"name": "[Janissary] ability",
@@ -756,7 +762,7 @@
 	},
 	{
 		"name": "[Hakkapeliitta] ability",
-		"uniques": ["Transfer Movement to [Great General]", "[+15]% Strength when stacked with [Great General]",
+		"uniques": ["Transfer Movement to [Great General]", "[+15]% Strength <when stacked with a [Great General] unit>",
 		"[+15]% Strength <when adjacent to a [Great General] unit>"]
 	},
 	{
@@ -770,6 +776,28 @@
 	{
 		"name": "[Privateer] ability",
 		"uniques": ["May capture killed [Water] units"]
+	},
+	{
+		"name": "[Hand Axe Warrior] ability",
+		"uniques": ["Unable to capture cities"]
+	},
+	{
+		"name": "[Greek Fire] ability",
+		"uniques": ["[+100]% Strength <vs [Ranged] units> <when defending>","[+100]% Strength <vs cities> <when defending>","Can move after attacking"]
+	},
+	{
+		"name": "[Naphtha Throwers] ability",
+		"uniques": ["[+200]% Strength <when attacking>","[+200]% Strength <vs cities> <when attacking>","Self-destructs when attacking"]
+	},
+	{
+		"name": "[Longship] ability",
+		"uniques": ["Can move after attacking",
+		"[This Unit] gains the [Plunder] promotion <upon damaging a [All] unit> <in [Foreign Land] tiles>",
+		"[This Unit] loses the [Plunder] promotion <upon ending a turn in a [Friendly Land] tile>"]
+	},
+	{
+		"name": "Plunder",
+		"uniques": ["Gain [20] [Gold] <(modified by game speed)> <upon ending a turn in a [Friendly Land] tile>"]
 	},
 	{	// For barbarian water units
 		"name": "Unable to pillage tiles",
@@ -811,6 +839,12 @@
 		"name": "让我看看",
 		"uniques": [
 		"[+1] Sight"]
+    },
+    {
+		"name": "拉锯战",
+		"uniques": [
+		"Can move after attacking",
+		"Withdraws before melee combat <with [25]% chance>"]
     },
     {
 		"name": "神力",
@@ -947,6 +981,35 @@
 		"Withdraws before melee combat <in [Desert] tiles>"]
     },
     {
+		"name": "Morning Star I",
+		"unitTypes": ["Alice"],
+		"uniques": [
+		"[+33]% Strength"]
+    },
+    {
+		"name": "Morning Star II",
+		"unitTypes": ["Alice"],
+		"prerequisites": ["Morning Star I"],
+		"uniques": [
+		"[+33]% Strength"]
+    },
+    {
+		"name": "Morning Star III",
+		"unitTypes": ["Alice"],
+		"prerequisites": ["Morning Star II"],
+		"uniques": [
+		"[+34]% Strength"]
+    },
+    {
+		"name": "Divine Liberation",
+		"unitTypes": ["Alice"],
+		"prerequisites": ["Morning Star III"],
+		"uniques": [
+		"Comment [Be loyal to your desires, and be loyal to me]",
+		"[+100]% Strength",
+		"Triggers a [爱丽丝致你] event <hidden from users>"]
+    },
+    {
 		"name": "War Gap",
 		"uniques": [
 		"[5] HP when healing <when not at war> <hidden from users>",
@@ -962,11 +1025,49 @@
 		]
     },
     {
+		"name": "Receive Training",
+		"uniques": [
+		"[-66]% maintenance costs <for units with [Drill II]>",
+		"[-66]% Gold cost of upgrading <for units with [Drill II]>",
+		"May capture killed [Scout] units <for units with [Drill II]>"
+		]
+    },
+    {
+		"name": "Revenge",
+		"uniques": [
+		"[+1] Movement",
+		]
+    },
+    {
+		"name": "Poisoned Cup",
+		"uniques": [
+		"[+1] Movement",
+		"[+35]% Strength",
+		"Can move after attacking",
+		"Unable to pillage tiles",
+		"Can only heal by pillaging",
+		"[This Unit] takes [10] damage <upon turn end>",
+		"Comment [This Unit dead upon losing this promotion]"
+		]
+    },
+    {
+		"name": "Martyrdom",
+		"uniques": [
+		"Comment [Can ranged attack without setting up]",
+		"Self-destructs when attacking",
+		"[+100]% Strength <when attacking>"
+		]
+    },
+    {
+		"name": "Stained with blood",
+		"uniques": [
+		"[This Unit] gains [1] movement",
+		"Can move after attacking"
+		]
+    },
+    {
 		"name": "世界处理器",
 		"uniques": ["Comment [它没有任何坏处]",
-		"Can move immediately once bought <on [Half Quick] game speed>",
-        "Can move immediately once bought <on [Half Standard] game speed>",
-		"Cannot move <for [1] turns> <after adopting [停风]> <hidden from users>",
 		"[This Unit] gains [999] movement <upon being promoted> <hidden from users>",
 		"[+5] HP when healing <after adopting [长生岩]> <hidden from users>",
 		"Unit will heal every turn, even if it performs an action <after adopting [安睡]> <when above [0] [全恢复计数器]> <hidden from users>",
@@ -976,6 +1077,21 @@
 		"[This Unit] takes [100] damage <if [阴谋论者] is constructed by anybody> <for [All] Civilizations> <in tiles adjacent to [City center] tiles> <upon turn end> <hidden from users>",
 		"[This Unit] takes [100] damage <if [阴谋论者] is constructed by anybody> <for [All] Civilizations> <in [City center] tiles> <upon turn end> <hidden from users>",
 		"[This Unit] takes [100] damage <if [阴谋论者] is constructed by anybody> <for [All] Civilizations> <in tiles adjacent to [Ancient ruins] tiles> <upon turn end> <hidden from users>",
+		"[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack> <after adopting [重盾]> <for units with [Cover II]> <hidden from users>",
+		"[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <after adopting [重盾]> <for units with [Cover II]> <hidden from users>",
+		"[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack> <after adopting [重盾]> <for units with [Cover II]> <hidden from users>",
+		"[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <after adopting [重盾]> <for units with [Cover II]> <hidden from users>",
+		"[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack> <after adopting [重盾]> <for units with [Cover II]> <hidden from users>",
+		"[This Unit] heals [1] HP <upon losing at least [6] HP in a single attack> <after adopting [重盾]> <for units with [Cover II]> <hidden from users>",
+		"[This Unit] heals [1] HP <upon losing at least [7] HP in a single attack> <after adopting [重盾]> <for units with [Cover II]> <hidden from users>",
+		"Double movement in [Forest] <for [Iroquois] Civilizations> <hidden from users>",
+		"Double movement in [Jungle] <for [Iroquois] Civilizations> <hidden from users>",
+		"Gain [3] [Culture] <for every [UB1]> <for [All] units> <upon defeating a [Barbarian] unit> <hidden from users>",
+		"Instantly gain [5] [Golden Age points] <for every [UB1]> <for [All] units> <upon defeating a [Barbarian] unit> <hidden from users>",
+		"[+1] Sight <for [Land] units> <in [Burning Landmarks] tiles> <hidden from users>",
+		"[+1] Sight <for [Land] units> <in tiles adjacent to [Burning Landmarks] tiles> <hidden from users>",
+		"[+3] Sight <for [Water] units> <in [Burning Landmarks] tiles> <hidden from users>",
+		"[+3] Sight <for [Water] units> <in tiles adjacent to [Burning Landmarks] tiles> <hidden from users>",
 		//安德鲁·杰克逊能力
 		"Instantly provides [1] [CR1] <upon defeating a [Barbarian] unit> <for [America] Civilizations> <when below [5] [CR2]> <when between [1] and [1] [国家意志]> <hidden from users>",
 		"Instantly consumes [5] [CR1] <upon defeating a [Barbarian] unit> <for [America] Civilizations> <when below [2] [CR2]> <when above [4] [CR1]> <when between [1] and [1] [国家意志]> <hidden from users>",
@@ -1029,7 +1145,7 @@
 		"[+25]% Strength <for units with [Formation II]> <for units with [Blitz]> <for units with [Woodsman]> <when between [1] and [1] [国家意志]> <for [Sword] units> <for [Greece] Civilizations> <for units with [March]> <hidden from users>",
 		//千早爱音能力
 		"Unit will heal every turn, even if it performs an action <when adjacent to a [Anon] unit> <when between [1] and [1] [国家意志]> <for [England] Civilizations> <hidden from users>",
-		"[+20]% Strength when stacked with [Anon] <when between [1] and [1] [国家意志]> <for [England] Civilizations> <hidden from users>",
+		"[+20]% Strength <when stacked with a [Anon] unit> <when between [1] and [1] [国家意志]> <for [England] Civilizations> <hidden from users>",
 		"All healing effects doubled <when adjacent to a [Anon] unit> <when between [1] and [1] [国家意志]> <for [Melee] units> <for [England] Civilizations> <hidden from users>",
 		//尼古拉二世能力
 		"[This Unit] takes [10] damage <when below [50] HP> <upon damaging a [Russia] unit> <for [Military] units> <if [Peter and Paul Fortress] is constructed by anybody> <hidden from users>",
@@ -1081,6 +1197,17 @@
 		"[This Unit] heals [10] HP <upon turn start> <when number of [turns] is equal to [193]> <when between [1] and [1] [国家意志]> <for [France] Civilizations> <hidden from users>",
 		"[This Unit] heals [10] HP <upon turn start> <when number of [turns] is equal to [197]> <when between [1] and [1] [国家意志]> <for [France] Civilizations> <hidden from users>",
 		"[This Unit] heals [10] HP <upon turn start> <when number of [turns] is equal to [199]> <when between [1] and [1] [国家意志]> <for [France] Civilizations> <hidden from users>",
+		//弗兰茨·约瑟夫一世能力
+		"[+25]% Strength <when defending> <in [Fort] tiles> <when between [1] and [1] [国家意志]> <for [Austria] Civilizations> <hidden from users>",
+		"[+25]% Strength <when defending> <for [Austria] Civilizations> <when between [1] and [1] [国家意志]> <in tiles adjacent to [Fort] tiles> <hidden from users>",
+		"[+50]% Strength <when defending> <in [Citadel] tiles> <when between [1] and [1] [国家意志]> <for [Austria] Civilizations> <hidden from users>",
+		"[+50]% Strength <when defending> <for [Austria] Civilizations> <when between [1] and [1] [国家意志]> <in tiles adjacent to [Citadel] tiles> <hidden from users>",
+		//穆斯塔法·凯末尔·阿塔图尔克能力
+		"[+15]% Strength <when defending> <in [Mine] tiles> <when between [1] and [1] [国家意志]> <for [The Ottomans] Civilizations> <hidden from users>",
+		//哈姆雷特能力
+		"[This Unit] gains the [Revenge] status for [1] turn(s) <for units without [Revenge]> <requires [1] movement> <when between [1] and [1] [国家意志]> <for [Denmark] Civilizations> <hidden from users>",
+		"[This Unit] gains the [Poisoned Cup] status for [3] turn(s) <for units without [Poisoned Cup]> <for [1] movement> <when between [1] and [1] [国家意志]> <for [Denmark] Civilizations> <hidden from users>",
+		"[This Unit] is destroyed <upon losing the [Poisoned Cup] status> <hidden from users>",
         ]
     },
 ]
