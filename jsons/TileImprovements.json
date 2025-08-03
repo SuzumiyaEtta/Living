@@ -27,7 +27,8 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Mining",
-		"uniques": ["[+1 Production] <after discovering [Chemistry]>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": ["[+1 Production] <after discovering [Chemistry]>", "Pillaging this improvement yields approximately [+25 Gold]",
+		"Ensures a minimum tile yield of [+1 Food, +2 Production] <when between [1] and [1] [国家意志]> <for [The Ottomans] Civilizations> <hidden from users>","Can be built outside your borders <when between [1] and [1] [国家意志]> <for [The Ottomans] Civilizations> <hidden from users>"],
 		"shortcutKey": "M"
 	},
 	{
@@ -89,7 +90,7 @@
 		"food": 1,
 		"techRequired": "Sailing",
 		"uniques": ["[+1 Gold] <after discovering [Compass]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]",
-		"Tile provides yield without assigned population <in tiles adjacent to [City center] tiles> <when between [1] and [1] [国家意志]> <for [Byzantium] Civilizations> <hidden from users>"],
+		"Tile provides yield without assigned population <for [Byzantium] Civilizations> <when between [1] and [1] [国家意志]> <in tiles adjacent to [City center] tiles> <hidden from users>"],
 		"shortcutKey": "F"
 	},
 
@@ -200,6 +201,16 @@
             "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
+		"name": "Ziggurat",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"science": 9,
+		"uniques": ["Comment [+1 [Science] for Land tiles in tiles adjacent to this tile]",
+		"Comment [+1 [Science] for [Cuneiform Engraving] tiles in tiles adjacent to this tile]",
+		"Great Improvement", "[+2 Science] <after discovering [Scientific Theory]>",
+            "[+2 Science] <after discovering [Atomic Theory]>", "Removes removable features when built",
+            "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
 		"name": "Landmark",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"culture": 6,
@@ -235,6 +246,7 @@
 			"Adjacent enemy units ending their turn take [30] damage",
 			"Can be built just outside your borders",
 			"Gain control over [all] tiles in a [1]-tile radius",
+			"Gain control over [all] tiles in a [2]-tile radius <after adopting [要塞化]> <hidden from users>",
 			"Removes removable features when built",
             "Will not be replaced by automated units"
 		]
@@ -250,6 +262,15 @@
 		"uniques": ["Can only be built on [Coastal] tiles", "[+1 Culture] for each adjacent [Moai]", "[+1 Gold] <after discovering [Flight]>", "Pillaging this improvement yields approximately [+10 Gold]"],
 		"techRequired": "Construction",
 		"shortcutKey": "M"
+	},
+	{
+		"name": "Burning Landmarks",
+		"uniqueTo": "Polynesia",
+		"terrainsCanBeBuiltOn": ["Forest","Jungle"],
+		"turnsToBuild": 2,
+		"uniques": ["Comment [+1 Sight for Land units in or adjacent this tile]",
+		"Comment [+3 Sight for Water units in or adjacent this tile]"
+		"Pillaging this improvement yields approximately [+6 Gold]"],
 	},
 	{
 		"name": "Terrace farm",
@@ -328,6 +349,19 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 		"[+1 Science] <in tiles adjacent to [Cuneiform Engraving] tiles>",
+		"Removes removable features when built",
+		"Pillaging this improvement yields approximately [+35 Gold]",
+		"Unbuildable <for [Worker] units>"],
+	},
+	{
+		"name": "Koerber Plan",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"uniques": [
+		"Comment [+1 [Production] to every adjacent [Hill]]",
+		"Comment [Nullifies all other stats this tile provides]",
+		"Removes removable features when built",
+		"Can be built outside your borders",
+		"[-999 Production, -999 Food, -999 Gold, -999 Happiness, -999 Culture, -999 Science, -999 Faith] <hidden from users>",
 		"Pillaging this improvement yields approximately [+35 Gold]",
 		"Unbuildable <for [Worker] units>"],
 	},
