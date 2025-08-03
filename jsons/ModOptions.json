@@ -1,6 +1,10 @@
 {
     "isBaseRuleset": true,
+    "author":"Suzumiya Etta"
     "constants":{
     minimalCityDistance:2,
     },
+    "uniques": [
+        "Can trade civilization introductions for [50] Gold",
+        ]
 }
