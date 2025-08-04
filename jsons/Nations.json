@@ -1,4 +1,17 @@
-onian"],
+[
+	//Spectator
+    //Not "Excluded from map editor" as it serves as placeholder for "Any Civ" starting locations
+	{
+		"name": "Spectator",
+		"outerColor": [255,255,255]
+//		"innerColor": [255,255,255]
+	},
+
+	{
+		//nations
+		"name": "Babylon",
+		"leaderName": "Unknown leader",
+		"adjective": ["Babylonian"],
 		"startBias": ["Avoid [Tundra]"],
 		"preferredVictoryType": "Scientific",
 		"personality": "Nebuchadnezzar II",
@@ -307,7 +320,7 @@ onian"],
 		"innerColor": [146, 221, 10],
 		"favoredReligion": "Islam",
 		"uniqueName": "Trade Caravans",
-		"uniques": ["[+1 Gold] from each Trade Route","[+1 Gold] from every [Desert]","[+100]% [Oil] resource production",
+		"uniques": ["[+1 Gold] from each Trade Route","[+1 Gold] from every [Desert]","[+1 Gold] from every [{non-[Desert]} {Land}] <in tiles adjacent to [Desert] tiles>","[+25]% Yield from every [Desert] <during a Golden Age>","[+100]% [Oil] resource production",
 		//萨拉丁·阿尤布·本能力
 		"[+1 Production] [in all cities] <for every [3] [[Mounted] Units]> <when number of [[Mounted] Units] is less than [3]> <when between [1] and [1] [国家意志]> <hidden from users>",
 		"[+2 Production] [in all cities] <when number of [[Mounted] Units] is more than [2]> <when between [1] and [1] [国家意志]> <hidden from users>",
@@ -729,7 +742,9 @@ onian"],
 		"innerColor": [255,120,0],
 		"favoredReligion": "Tengriism",
 		"uniqueName": "Mongol Terror",
-		"uniques": ["[+20]% Strength <for [Mounted] units> <vs cities>","[+30]% Strength <vs [City-States]>", "[+1] Movement <for [Mounted] units>"],
+		"uniques": ["[+33]% Strength <for [Mounted] units> <when defending> <vs cities>","Comment [Discover [Horseback Riding] upon discovering prerequisites technology]","[+1] Movement <for [Mounted] units>",
+		"Discover [Horseback Riding] <upon discovering [Trapping] technology> <after discovering [The Wheel]> <hidden from users>",
+		"Discover [Horseback Riding] <upon discovering [The Wheel] technology> <after discovering [Trapping]> <hidden from users>"],
 		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
 			"Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg",
 			"Baruun-Urt","Ereen","Batshireet","Choyr","Ulaangom","Tosontsengel","Altay","Uliastay","Bayanhongor",
