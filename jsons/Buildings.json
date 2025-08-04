@@ -616,7 +616,7 @@
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
 		"uniques": ["Provides 1 extra copy of each improved luxury resource near this City",
-			"[+2 Gold] from [Oil] tiles [in this city]", "[+2 Gold] from [Oasis] tiles [in this city]"],
+			"[+2 Gold, +1 Production] from [Oil] tiles [in this city]", "[+2 Gold, +1 Food] from [Oasis] tiles [in this city]"],
 		"requiredTech": "Currency"
 	},
 	{
