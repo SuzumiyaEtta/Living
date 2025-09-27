@@ -14,6 +14,19 @@
 		"uniques": ["Indicates the capital city"]
 	},
 	{
+		"name": "The White House",
+		"replaces": "Palace",
+		"uniqueTo": "America",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"cityStrength": 2,
+		"cost": 1,
+		"uniques": ["Indicates the capital city",
+		"Free Social Policy"]
+	},
+	{
 		"name": "Oriental Pearl TV Tower",
 		"replaces": "幼观",
 		"uniqueTo": "Songhai",
@@ -110,7 +123,7 @@
 		"name": "The Great Lingangu",
 		"cost": 165,
 		"culture": 1,
-		"happiness": 3,
+		"happiness": 6,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
         "uniques": ["Comment [[Gold] cost of purchasing All buildings will random every turn]",
@@ -440,6 +453,17 @@
 		"hurryCostModifier": 50,
 		"uniques": ["Removes extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>"
+			],
+		"requiredTech": "Mathematics"
+	},
+	{
+		"name": "Council",
+		"replaces": "Courthouse",
+		"uniqueTo": "Greece",
+		"maintenance": 3,
+		"hurryCostModifier": 50,
+		"uniques": ["Removes extra unhappiness from annexed cities",
+			"[-50]% production cost <if [Council] is constructed in at least [1] of [in all cities] cities>"
 			],
 		"requiredTech": "Mathematics"
 	},
@@ -1567,25 +1591,25 @@
 	{
 		"name": "State Hotel",
 	    "cost": 1,
-	    "maintenance": 2,
 	    "science": 1,
+	    "maintenance": 2,
 	    "specialistSlots": {"Scientist": 1},
 		"uniques": ["Unbuildable",
 		"Unsellable",
 		"Never destroyed when the city is captured",
 		"[-50]% Food consumption by specialists [in this city]",
 		"[+2 Happiness] <starting from the [Classical era]>",
-		"[+1 Science] <starting from the [Classical era]>"
+		"[+1 Science] <starting from the [Classical era]>",
 		]
 	},
 	{
 		"name": "State Bond",
-		"cost": 75,
+		"cost": 65,
 		"requiredTech": "Mathematics",
 		"uniqueTo": "Germany",
 		"uniques": [
 		"Gain [500] [Gold] <(modified by game speed)>",
-		"[-15 Gold] [in this city] <(modified by game speed)>",
+		"[-10 Gold] [in this city] <(modified by game speed)>",
 		"Unsellable",
 		"Destroyed when the city is captured"]
 	},
@@ -1950,6 +1974,17 @@
 		"Only available <when between [0] and [0] [国家意志]>",
 		"Remove [Vincent Willem van Gogh] [in this city]",
 		"Gain a free [Self-Portrait] [in capital]"
+		]
+	},
+	{
+		"name": "Hannibal Barca",//汉尼拔·巴卡
+	    "cost": 0,
+	    "uniqueTo": "Carthage",
+	    "replacementTextForUniques": "[Leader Ability【Magnificent Mountain Peak】]\n[Reveal up to all [Mountain] within a 15 tile radius upon entering a [Mountain] tile for All units]\n[Double movement in [Mountain] for All units]\n[Free [Great General] appears when founding a second city within 15 tiles of a [Mountain]]"
+		"uniques": [
+		"Instantly provides [1] [国家意志]",
+		"Only available <when between [0] and [0] [国家意志]>",
+		"Remove [Hannibal Barca] [in this city]",
 		]
 	},
 ]

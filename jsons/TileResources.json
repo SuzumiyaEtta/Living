@@ -511,10 +511,10 @@
 	{
 		"name": "Agate Relief",
 		"resourceType": "Luxury",
-		"gold": 5,
-		"uniques": ["[+1 Culture] from [Gold Ore] tiles [in all cities]",
-		"[+1 Culture] from [Silver] tiles [in all cities]",
-		"[+1 Culture] from [Gems] tiles [in all cities]",]
+		"uniques": ["[+1 Culture, +1 Happiness] from [Gold Ore] tiles [in all cities]",
+		"[+1 Culture, +1 Happiness] from [Silver] tiles [in all cities]",
+		"[+1 Culture, +1 Happiness] from [Gems] tiles [in all cities]",
+		"[+5 Gold]"]
 	},
 	{
 		"name": "爱国热忱计数器",
@@ -626,6 +626,17 @@
 	},
 	{
 		"name": "UB1",
+		"resourceType": "Strategic",
+		"revealedBy": "计数器存储",
+		"uniques": [
+		"Cannot be traded"
+		"Not shown on world screen"
+		"Will not be displayed in Civilopedia"
+		"Comment [计数器类型资源]"
+		]
+	},
+	{
+		"name": "JA",
 		"resourceType": "Strategic",
 		"revealedBy": "计数器存储",
 		"uniques": [

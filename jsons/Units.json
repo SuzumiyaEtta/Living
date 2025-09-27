@@ -354,6 +354,21 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Gao Guard Infantry",
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"uniqueTo": "Songhai",
+		"movement": 2,
+		"strength": 18,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"promotions":["[Gao Guard Infantry] ability"],
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Berserker",
 		"unitType": "Sword",
 		"replaces": "Spearman",
@@ -568,6 +583,24 @@
 		"cost": 75,
 		"requiredTech": "Construction",
 		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Slavic Heavy Archer",
+		"unitType": "Archery",
+		"uniqueTo": "Russia",
+		"replaces": "Composite Bowman",
+		"movement": 2,
+		"strength": 10,
+		"rangedStrength": 11,
+		"cost": 75,
+		"uniques": ["No defensive terrain bonus",
+		"[Target Unit] takes [5] damage <upon damaging a [All] unit>",
+		"[This Unit] takes [5] damage <upon damaging a [All] unit>",],
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"promotions": ["Cover I"],
 		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow"
 	},
@@ -938,7 +971,6 @@
 		"strength": 24,
 		"cost": 150,
 		"requiredTech": "Gunpowder",
-		"uniques": ["All healing effects doubled"],
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"promotions": ["March"],
@@ -1745,6 +1777,25 @@
 			"Great Person - [War]", "Unbuildable", "Uncapturable",
 			],
 		"movement": 2
+	},
+	{
+		"name": "Joan of Arc",
+		"unitType": "Civilian",
+		"uniqueTo": "France",
+		"replaces": "Great General",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "[+15]% Strength bonus for [Military] units within [2] tiles <before adopting [中了一箭]> <hidden from users>",
+            "Free [Great Artist] appears <by consuming this unit> <after adopting [中了一箭]> <hidden from users>",
+            "Comment [[+15]% Strength bonus for [Military] units within [2] tiles]",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+            "Withdraws before melee combat",
+            "[This Unit] heals [40] HP <upon entering combat>",
+			"Can be earned through combat",
+			"Great Person - [War]", "Unbuildable", "Uncapturable",
+			],
+		"promotions": ["[Joan of Arc] ability"],
+		"movement": 3
 	},
 	{
 		"name": "Khan",

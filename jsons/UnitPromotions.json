@@ -796,6 +796,14 @@
 		"[This Unit] loses the [Plunder] promotion <upon ending a turn in a [Friendly Land] tile>"]
 	},
 	{
+		"name": "[Gao Guard Infantry] ability",
+		"uniques": ["[-50]% Strength <when at war>"]
+	},
+	{
+		"name": "[Joan of Arc] ability",
+		"uniques": ["Comment [Double [Heal Instantly] effect for All units]"]
+	},
+	{
 		"name": "Plunder",
 		"uniques": ["Gain [20] [Gold] <(modified by game speed)> <upon ending a turn in a [Friendly Land] tile>"]
 	},
@@ -1092,6 +1100,7 @@
 		"[+1] Sight <for [Land] units> <in tiles adjacent to [Burning Landmarks] tiles> <hidden from users>",
 		"[+3] Sight <for [Water] units> <in [Burning Landmarks] tiles> <hidden from users>",
 		"[+3] Sight <for [Water] units> <in tiles adjacent to [Burning Landmarks] tiles> <hidden from users>",
+		"[This Unit] heals [50] HP <upon gaining the [Heal Instantly] status> <when above [0] [JA]> <hidden from users>",
 		//安德鲁·杰克逊能力
 		"Instantly provides [1] [CR1] <upon defeating a [Barbarian] unit> <for [America] Civilizations> <when below [5] [CR2]> <when between [1] and [1] [国家意志]> <hidden from users>",
 		"Instantly consumes [5] [CR1] <upon defeating a [Barbarian] unit> <for [America] Civilizations> <when below [2] [CR2]> <when above [4] [CR1]> <when between [1] and [1] [国家意志]> <hidden from users>",
@@ -1208,6 +1217,9 @@
 		"[This Unit] gains the [Revenge] status for [1] turn(s) <for units without [Revenge]> <requires [1] movement> <when between [1] and [1] [国家意志]> <for [Denmark] Civilizations> <hidden from users>",
 		"[This Unit] gains the [Poisoned Cup] status for [3] turn(s) <for units without [Poisoned Cup]> <for [1] movement> <when between [1] and [1] [国家意志]> <for [Denmark] Civilizations> <hidden from users>",
 		"[This Unit] is destroyed <upon losing the [Poisoned Cup] status> <hidden from users>",
+		//汉尼拔·巴卡能力
+		"Reveal up to [all] [Mountain] within a [15] tile radius <upon entering a [Mountain] tile> <when between [1] and [1] [国家意志]> <for [Carthage] Civilizations> <hidden from users>",
+		"Double movement in [Mountain] <when between [1] and [1] [国家意志]> <for [Carthage] Civilizations> <hidden from users>",
         ]
     },
 ]

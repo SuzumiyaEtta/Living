@@ -176,7 +176,7 @@
                 "uniques": [
                     "Free [Chariot Archer] appears",
                     "Free [Chariot Archer] appears <after discovering [The Wheel]>",
-                    "[+33]% Production when constructing [Chariot Archer] units [in capital]",
+                    "[+25]% Production when constructing [Chariot Archer] units [in capital]",
                 ],
                 "requires": ["Political Center"],
                 "row": 2,
