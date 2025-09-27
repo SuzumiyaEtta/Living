@@ -143,6 +143,13 @@ BuildingIcons/Vincent Willem van Gogh
   orig: 64, 64
   offset: 0, 0
   index: -1
+BuildingIcons/Hannibal Barca
+  rotate: false
+  xy: 448, 320
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 UnitIcons/海豚娘
   rotate: false
   xy: 0, 0
@@ -892,5 +899,43 @@ BuildingIcons/State Bond
   orig: 64, 64
   offset: 0, 0
   index: -1
+BuildingIcons/The White House
+  rotate: false
+  xy: 576, 1088
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/Slavic Heavy Archer
+  rotate: false
+  xy: 0, 1152
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/Gao Guard Infantry
+  rotate: false
+  xy: 128, 1152
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/Council
+  rotate: false
+  xy: 256, 1152
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/Joan of Arc
+  rotate: false
+  xy: 384, 1152
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+
+
+
 
 
