@@ -390,7 +390,8 @@
 		"innerColor": [184, 0, 0],
 		"favoredReligion": "Shinto",
 		"uniqueName": "Bushido",
-		"uniques": ["No damage penalty for wounded units <for [non-[Air]] units>"],
+		"uniques": ["No damage penalty for wounded units <for [non-[Air]] units>",
+		"Comment [[2] damage absorption for Military units]"],
 		"cities": ["Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
 			"Shimonoseki","Matsuyama","Sapporo","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen","Echizen",
 			"Izumi","Omi","Echigo","Kozuke","Sado","Kobe","Nagano","Hiroshima","Takayama","Akita","Fukuoka","Aomori",
@@ -1027,7 +1028,7 @@
 		"innerColor": [81, 0, 137],
 		"favoredReligion": "Islam",
 		"uniqueName": "Phoenician Heritage",
-		"uniques": ["Gain a free [Harbor] [in all coastal cities]","Land units may cross [Mountain] tiles after the first [Great General] is earned","Comment [Units ending their turn on [Mountain] tiles take [50] damage]",
+		"uniques": ["Gain a free [Cothon] [in all coastal cities]","Land units may cross [Mountain] tiles after the first [Great General] is earned","Comment [Units ending their turn on [Mountain] tiles take [50] damage]",
 		//汉尼拔·巴卡能力
 		"Free [Great General] appears <upon founding a city> <within [15] tiles of a [Mountain]> <when number of [[in all cities] Cities] is equal to [2]> <when between [1] and [1] [国家意志]> <hidden from users>",],
 		"cities": ["Carthage","Utique","Hippo Regius","Gades","Saguntum","Carthago Nova","Panormus","Lilybaeum","Hadrumetum","Zama Regia",
@@ -1142,7 +1143,7 @@
 		//门格斯图·海尔·马里亚姆能力
 		"[Military] units gain the [Receive Training] promotion <when between [1] and [1] [国家意志]> <hidden from users>",
 		"[+1] population in a random city <when number of [Cities] is more than [1]> <upon founding a city> <when between [1] and [1] [国家意志]> <hidden from users>",
-		"[+1] population in a random city <when number of [Cities] is more than [1]> <upon declaring war with a major Civilization> <when between [1] and [1] [国家意志]> <hidden from users>",
+		"[+1] population in a random city <when number of [Cities] is more than [1]> <upon entering a war with [Major] Civilizations> <when between [1] and [1] [国家意志]> <hidden from users>",
 		],
 		"cities": ["Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama",
 			"Mek'ele","Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Shashamane","Debre Zeyit","Sodo","Hosaena",

@@ -78,6 +78,17 @@
 		"shortcutKey": "P"
 	},
 	{
+		"name": "Arboretum",
+		"uniqueTo": "The Netherlands",
+		"replaces": "Plantation",
+		"terrainsCanBeBuiltOn": ["Jungle"],
+		"turnsToBuild": 6,
+		"happiness": 1,
+		"techRequired": "Pottery",
+		"uniques": ["[+1 Food] <after discovering [Fertilizer]>","Can only be built to improve a resource","Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "P"
+	},
+	{
 		"name": "Quarry",
 		"turnsToBuild": 8,
 		"techRequired": "Masonry",

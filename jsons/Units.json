@@ -280,6 +280,23 @@
 		"attackSound": "arrow"
 	},
 	{
+		"name": "Essedum",
+		"unitType": "Archery",
+		"replaces": "Chariot Archer",
+		"uniqueTo": "Celts",
+		"movement": 4,
+		"strength": 4,
+		"rangedStrength": 8,
+		"cost": 56,
+		"requiredTech": "The Wheel",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit",
+		"[1] additional attacks per turn"],
+		"attackSound": "arrow"
+	},
+	{
 		"name": "Hwach'a",
 		"unitType": "Archery",
 		"replaces": "Chariot Archer",
@@ -550,9 +567,23 @@
 		"requiredTech": "Mathematics",
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
-		    "Comment [Must set up to ranged attack]",
-			"Must set up to ranged attack <for units without [Martyrdom]> <hidden from users>", "[-1] Sight", "Never appears as a Barbarian unit"],
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "Must set up to ranged attack", "[-1] Sight", "Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "throw"
+	},
+	{
+		"name": "Hui-Hui Pao",
+		"unitType": "Siege",
+		"replaces": "Catapult",
+		"uniqueTo": "Mongolia",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 8,
+		"cost": 75,
+		"requiredTech": "Mathematics",
+		"obsoleteTech": "Physics",
+		"upgradesTo": "Trebuchet",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>"],
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
 	},
@@ -803,7 +834,7 @@
 		"uniqueTo": "Mongolia",
 		"range": 2,
 		"movement": 3,
-		"strength": 8,
+		"strength": 9,
 		"rangedStrength": 10,
 		"cost": 75,
 		"requiredTech": "Horseback Riding",
@@ -1829,6 +1860,17 @@
             "Can instantly construct a [Manufactory] improvement <by consuming this unit>",
             "Great Person - [Production]", "Unbuildable", "Uncapturable"],
 		"movement": 2
+	},
+	{
+		"name": "Great Admiral",
+		"unitType": "Civilian Water",
+		"uniques": [
+            // TODO: "[Every adjacent [{Friendly} {Water}] unit] heals [100] HP <by consuming this unit>",
+            "[+15]% Strength bonus for [{Military} {Water}] units within [2] tiles",
+			"Can be earned through combat",
+            "Is part of Great Person group [Admiral]",
+            "Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 4
 	},
 
 	/* Religious units */

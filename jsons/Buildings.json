@@ -56,9 +56,25 @@
 		"uniques": ["Destroyed when the city is captured"] //"Only available <when religion is enabled>"
 	},
 	{
+		"name": "Slate",
+        "replaces": "Monument",
+		"uniqueTo": "The Maya",
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured",
+		"[+1 Faith] <in [Bonus resource] tiles>",
+		"[+1 Science] <within [1] tiles of a [Strategic resource]>",
+		"[+1 Gold] <within [2] tiles of a [Luxury resource]>",
+		"[+1 Culture] <in [Bonus resource] tiles> <within [1] tiles of a [Strategic resource]> <within [2] tiles of a [Luxury resource]> <hidden from users>",
+		"Comment [[+1 Culture] when all the above conditions are met]"]
+	},
+	{
 		"name": "Cemetery",
 		"uniqueTo": "England",
 		"culture": 2,
+		"percentStatBonus": {"culture": 10},
 		"cost": 75,
 		"maintenance": 2,
 		"requiredTech": "Calendar",
@@ -97,6 +113,18 @@
 		"maintenance": 1,
 		"requiredTech": "Pottery",
 		"uniques": ["Only available <when religion is enabled>"]
+	},
+	{
+		"name": "Torii",
+		"replaces": "Shrine",
+		"uniqueTo": "Japan",
+		"faith": 1,
+		"culture": 1,
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": ["Only available <when religion is enabled>",
+		"[+1 Culture] <after founding a Pantheon>"]
 	},
 	{
 		"name": "Pyramid",
@@ -520,6 +548,16 @@
 		"requiredTech": "Construction"
 	},
 	{
+		"name": "Arena",
+		"replaces": "Colosseum",
+		"uniqueTo": "Rome",
+		"maintenance": 1,
+		"uniques": ["[+3 Happiness] <if [Arena] is constructed in all [in capital] cities>",
+		"[-25]% production cost <if [Arena] is constructed in all [in capital] cities>"]
+		"hurryCostModifier": 25,
+		"requiredTech": "Construction"
+	},
+	{
 		"name": "Tzompantli",
 		"replaces": "Colosseum",
 		"uniqueTo": "Aztecs",
@@ -806,6 +844,18 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from [Water resource] tiles [in this city]",
+			"Connects trade routes over water","Must be next to [Coast]"],
+		"requiredTech": "Compass"
+	},
+	{
+		"name": "Cothon",
+		"replaces": "Harbor",
+		"uniqueTo": "Carthage",
+		"cost": 120,
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Water resource] tiles [in this city]",
+		    "[+1 Production] <with [1] to [2] neighboring [Coast] tiles>"
 			"Connects trade routes over water","Must be next to [Coast]"],
 		"requiredTech": "Compass"
 	},
@@ -1985,6 +2035,17 @@
 		"Instantly provides [1] [国家意志]",
 		"Only available <when between [0] and [0] [国家意志]>",
 		"Remove [Hannibal Barca] [in this city]",
+		]
+	},
+	{
+		"name": "Hojo Tokimune",//北条时宗
+	    "cost": 0,
+	    "uniqueTo": "Japan",
+	    "replacementTextForUniques": "[Leader Ability【Divine Wind Protection】]\n[[1] damage absorption for Military units]\n[+100% Strength when defending for All units for 1 turns upon being declared war on by Major Civilizations]\n[+15% Strength when defending for All units when fighting in [Foreign Land] tiles if [Shrine] is constructed in all non-Puppeted cities]"
+		"uniques": [
+		"Instantly provides [1] [国家意志]",
+		"Only available <when between [0] and [0] [国家意志]>",
+		"Remove [Hojo Tokimune] [in this city]",
 		]
 	},
 ]

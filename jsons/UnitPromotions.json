@@ -1220,6 +1220,13 @@
 		//汉尼拔·巴卡能力
 		"Reveal up to [all] [Mountain] within a [15] tile radius <upon entering a [Mountain] tile> <when between [1] and [1] [国家意志]> <for [Carthage] Civilizations> <hidden from users>",
 		"Double movement in [Mountain] <when between [1] and [1] [国家意志]> <for [Carthage] Civilizations> <hidden from users>",
+		//日本ua
+		"[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack> <for [Military] units> <for [Japan] Civilizations> <hidden from users>",
+		"[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <for [Military] units> <for [Japan] Civilizations> <hidden from users>",
+		//北条时宗能力
+		"[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack> <for [Military] units> <when between [1] and [1] [国家意志]> <for [Japan] Civilizations> <hidden from users>",
+		"[+100]% Strength <when defending> <for [1] turns> <upon being declared war on by [Major] Civilizations> <when between [1] and [1] [国家意志]> <for [Japan] Civilizations> <Suppress warning [which as a TriggerCondition is only allowed on Triggerable/UnitTriggerable uniques]> <hidden from users>",
+		"[+15]% Strength <when defending> <when fighting in [Foreign Land] tiles> <if [Shrine] is constructed in all [non-[Puppeted]] cities> <when between [1] and [1] [国家意志]> <for [Japan] Civilizations> <hidden from users>"
         ]
     },
 ]

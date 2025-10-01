@@ -26,7 +26,7 @@
 		"Instantly consumes [1] [全恢复计数器] <when above [0] [全恢复计数器]> <upon turn start>",
 		"[+33]% Strength <for [Armored] units> <when defending> <for units with [Ambush I]> <after adopting [别样的碰碰车大战]>",
         "[+33]% Strength <for [Armored] units> <when defending> <for units with [Ambush II]> <after adopting [别样的碰碰车大战]>",
-        "[-1] Sight <for [All] units> <upon declaring friendship> <after adopting [什么都不知道]> <for [5] turns>",
+        "[-1] Sight <for [All] units> <upon declaring friendship> <after adopting [什么都不知道]> <for [5] turns> <Suppress warning [which as a TriggerCondition is only allowed on Triggerable/UnitTriggerable uniques]>",
         "Gain [-100] [Gold] <upon expending a [Great General] unit> <after adopting [中了一箭]>",
         "[+1 Science] from every [Land] <in tiles adjacent to [Ziggurat] tiles>",
         "[+1 Science] from every [Cuneiform Engraving] <in tiles adjacent to [Ziggurat] tiles>",
