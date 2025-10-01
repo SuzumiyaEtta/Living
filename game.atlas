@@ -150,6 +150,13 @@ BuildingIcons/Hannibal Barca
   orig: 64, 64
   offset: 0, 0
   index: -1
+BuildingIcons/Hojo Tokimune
+  rotate: false
+  xy: 448, 320
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 UnitIcons/海豚娘
   rotate: false
   xy: 0, 0
@@ -934,8 +941,55 @@ UnitIcons/Joan of Arc
   orig: 64, 64
   offset: 0, 0
   index: -1
-
-
+ImprovementIcons/Arboretum
+  rotate: false
+  xy: 512, 1152
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/Cothon
+  rotate: false
+  xy: 64, 1216
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/Essedum
+  rotate: false
+  xy: 192, 1216
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/Arena
+  rotate: false
+  xy: 320, 1216
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/Slate
+  rotate: false
+  xy: 448, 1216
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/Hui-Hui Pao
+  rotate: false
+  xy: 576, 1216
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/Torii
+  rotate: false
+  xy: 640, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 
 
 
