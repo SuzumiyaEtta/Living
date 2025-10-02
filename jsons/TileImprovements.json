@@ -46,7 +46,7 @@
 		"name": "Camp",
 		"turnsToBuild": 7,
 		"techRequired": "Trapping",
-		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","[+1 Gold] <after discovering [Economics]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","[+1 Gold] <after discovering [Economics]>", "[+1 Production, +1 Food] <in [Ivory] tiles>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "C"
 	},
 	{
@@ -375,5 +375,18 @@
 		"[-999 Production, -999 Food, -999 Gold, -999 Happiness, -999 Culture, -999 Science, -999 Faith] <hidden from users>",
 		"Pillaging this improvement yields approximately [+35 Gold]",
 		"Unbuildable <for [Worker] units>"],
+	},
+	{
+		"name": "Control center",
+		"gold": 5,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 7,
+		"uniques": [
+		"Tile provides yield without assigned population",
+		"Unbuildable <when number of [Owned [Control center] Tiles] is more than [0]>"
+		"Unbuildable <in [Luxury resource] tiles>",
+		"Unbuildable <in [Strategic resource] tiles>",
+		"Unbuildable <in [Bonus resource] tiles>",
+		],
 	},
 ]

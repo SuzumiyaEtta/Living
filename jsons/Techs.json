@@ -68,13 +68,6 @@
 				"quote": "'He who commands the sea has command of everything.' - Themistocles"
 			},
 			{
-				"name": "Calendar",
-				"row": 2,
-				"prerequisites": ["Pottery"],
-                "uniques": ["[+75]% weight to this choice for AI decisions"],
-				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
-			},
-			{
 				"name": "Writing",
 				"row": 3,
 				"prerequisites": ["Pottery"],
@@ -157,16 +150,25 @@
 		"buildingCost": 100,
 		"wonderCost": 250,
 		"techs": [
+		    {
+				"name": "Log",
+				"cost": 135,
+				"row": 1,
+				"prerequisites": ["Optics"],
+				"uniques": ["[+100]% weight to this choice for AI decisions",
+				"Enables [Embarked] units to enter ocean tiles"],
+				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
+			},
 			{
 				"name": "Philosophy",
-				"row": 2,
-				"prerequisites": ["Writing","Calendar"],
+				"row": 3,
+				"prerequisites": ["Writing","Optics"],
 				"uniques": ["[+75]% weight to this choice for AI decisions"],
 				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
 			},
 			{
 				"name": "Drama and Poetry",
-				"row": 3,
+				"row": 4,
 				"prerequisites": ["Writing"],
 				"uniques": ["[+75]% weight to this choice for AI decisions"],
 				"quote": "'What is drama but life with the dull bits cut out.' - Alfred Hitchcock"
@@ -187,6 +189,7 @@
 			},
 			{
 				"name": "Iron Working",
+				"cost": 105,
 				"row": 10,
 				"prerequisites": ["Bronze Working"],
                 "uniques": ["[+75]% weight to this choice for AI decisions"],
@@ -210,7 +213,7 @@
 			{
 				"name": "Civil Service",
 				"row": 5,
-				"prerequisites": ["Currency","Horseback Riding","Drama and Poetry"],
+				"prerequisites": ["Currency","Horseback Riding"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
 			},
@@ -241,7 +244,7 @@
 				"name": "Compass",
 				"cost": 375,
 				"row": 1,
-				"prerequisites": ["Optics","Theology"],
+				"prerequisites": ["Log","Theology"],
                 "uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
 			},
@@ -291,7 +294,7 @@
 			{
 				"name": "Astronomy",
 				"row": 2,
-				"uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles","[+50]% weight to this choice for AI decisions"],
+				"uniques": ["[+1] Movement <for [Embarked] units>","[+50]% weight to this choice for AI decisions"],
 				"prerequisites": ["Compass","Education"],
 				"quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer"
 			},

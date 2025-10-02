@@ -191,9 +191,9 @@
 		"name": "Work Boats",
 		"unitType": "Civilian Water",
 		"movement": 4,
-		"cost": 30,
+		"cost": 25,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", "May create improvements on water resources",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Log]>", "May create improvements on water resources",
             "Uncapturable", "Automation is a primary action"]
 	},
 	{
@@ -202,8 +202,8 @@
 		"movement": 4,
 		"strength": 10,
 		"cost": 45,
-		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
+		"requiredTech": "Pottery",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Log]>", "Never appears as a Barbarian unit"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
@@ -216,8 +216,8 @@
 		"movement": 5,
 		"strength": 7,
 		"cost": 36,
-		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
+		"requiredTech": "Pottery",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Log]>", "Never appears as a Barbarian unit"],
 		"promotions": ["[Naphtha Throwers] ability"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
@@ -231,8 +231,8 @@
 		"movement": 4,
 		"strength": 13,
 		"cost": 45,
-		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles"],
+		"requiredTech": "Pottery",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Log]>"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
@@ -241,29 +241,29 @@
 		"name": "Dromon",
 		"unitType": "Ranged Water",
 		"uniqueTo": "Byzantium",
-		"replaces": "Trireme",
+		"replaces": "Galley",
 		"movement": 4,
 		"strength": 8,
 		"rangedStrength": 10,
 		"cost": 56,
-		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles", "[+50]% Strength <vs [Water] units>"],
+		"requiredTech": "Optics",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Log]>", "[+33]% Strength <vs [{Water} {Wounded}] units>"],
 		"upgradesTo": "Galleass",
 		"obsoleteTech": "Astronomy",
 		"attackSound": "arrow"
 	},
 	{
 		"name": "Galley",
-		"unitType": "Melee Water",
-		"uniqueTo": "Barbarians",
+		"unitType": "Ranged Water",
 		"movement": 3,
 		"strength": 7,
-		"cost": 40,
-		"uniques": ["Cannot enter ocean tiles"],
-		"upgradesTo": "Trireme",
+		"rangedStrength": 9,
+		"cost": 56,
+		"requiredTech": "Optics",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Log]>"],
+		"upgradesTo": "Galleass",
 		"obsoleteTech": "Astronomy",
-		"attackSound": "nonmetalhit"
-		//Barbarian unique naval unit, weaker and slower than Trireme.
+		"attackSound": "arrow"
 	},
 	{
 		"name": "Chariot Archer",
@@ -718,7 +718,7 @@
 		"requiredTech": "Compass",
 		"obsoleteTech": "Navigation",
 		"upgradesTo": "Frigate",
-		"uniques": ["Cannot enter ocean tiles"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Log]>"],
 		"attackSound": "arrow"
 	},
 	{
@@ -733,7 +733,7 @@
 		"requiredTech": "Compass",
 		"obsoleteTech": "Navigation",
 		"upgradesTo": "Frigate",
-		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Log]>"],
 		"promotions": ["[Longship] ability"],
 		"attackSound": "arrow"
 	},
@@ -2008,7 +2008,7 @@
 		"uniques": ["Unbuildable <before adopting [海豚娘]>",
 		"Cannot be purchased"
 		"May travel on Water tiles without embarking",
-		"Cannot enter ocean tiles <before discovering [Astronomy]>"],
+		"Cannot enter ocean tiles <before discovering [Log]>"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -2021,7 +2021,7 @@
 		"uniques": ["Unbuildable <before adopting [海豚娘]>",
 		"Cannot be purchased"
 		"May travel on Water tiles without embarking",
-		"Cannot enter ocean tiles <before discovering [Astronomy]>"],
+		"Cannot enter ocean tiles <before discovering [Log]>"],
 		"attackSound": "metalhit"
 	},
 	{

@@ -8,6 +8,7 @@
         "Cannot build [Settler] units <when below [-10] [Happiness]>",
         "Rebel units may spawn <when below [-20] [Happiness]> <before adopting [虚无主义]>",
         "[-1] Sight <for [Embarked] units>",
+        "Free [Worker] appears <for [Human player] Civilizations> <upon founding a city> <when number of [[in all cities] Cities] is equal to [1]>",
         //综合全局
         "Gain a free [Barrier] [in this city] <in [Hill] tiles> <on [Half Quick] game speed>",
         "Gain a free [Blockade] [in this city] <in [Hill] tiles> <on [Half Standard] game speed>",
